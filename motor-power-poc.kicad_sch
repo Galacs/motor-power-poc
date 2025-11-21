@@ -4643,6 +4643,26 @@
 		)
 		(uuid "28def912-0ea7-4803-9923-3b1460fed930")
 	)
+	(text_box "(2) TPS2121 Power mux calculations\n\nOV protection\ntriggers when OVx > Vref\nVref = 1.06V\nVin(max) = 6V\n10 kΩ & 2.2 kΩ -> 1.082 V OVx when 6v Vin\n\nILM\nRilm = 22k\n-> Ilm = 4.5A\n\nSWITCH\nVcp2 = 2.5V\nVPR1 = 3.1V\nIN1 min V to switch = 4V"
+		(exclude_from_sim no)
+		(at 304.8 87.63 0)
+		(size 69.85 55.88)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width -0.0001)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "d3e0431b-8696-4e36-8b49-578e81aa5041")
+	)
 	(junction
 		(at 44.45 101.6)
 		(diameter 0)
@@ -8322,7 +8342,7 @@
 		(dnp no)
 		(uuid "15a2369a-2748-4e8e-a347-a7c3c2d6d36f")
 		(property "Reference" "R6"
-			(at 45.974 85.09 0)
+			(at 45.72 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8330,8 +8350,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
-			(at 45.974 87.63 0)
+		(property "Value" "6k2"
+			(at 45.72 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8701,15 +8721,15 @@
 		(dnp no)
 		(uuid "2197329e-a9d0-4a3c-be77-9b6d346f40a9")
 		(property "Reference" "R11"
-			(at 25.4 119.888 90)
+			(at 25.4 119.38 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "R"
-			(at 25.4 122.428 90)
+		(property "Value" "2k2"
+			(at 25.4 121.92 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9484,7 +9504,7 @@
 				)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "10k"
 			(at 38.1 107.95 90)
 			(effects
 				(font
@@ -9805,15 +9825,15 @@
 	(symbol
 		(lib_id "Device:R")
 		(at 30.48 87.63 0)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "4c527353-4e1b-4c1a-8078-36e014dd3d26")
 		(property "Reference" "R8"
-			(at 27.94 88.9001 0)
+			(at 27.94 86.3599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9821,8 +9841,8 @@
 				(justify right)
 			)
 		)
-		(property "Value" "R"
-			(at 27.94 86.3601 0)
+		(property "Value" "10k"
+			(at 27.94 88.8999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11140,15 +11160,15 @@
 	(symbol
 		(lib_id "Device:R")
 		(at 30.48 107.95 0)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "61c82784-a383-4672-a64e-e1d877177d9e")
 		(property "Reference" "R15"
-			(at 27.94 109.2201 0)
+			(at 27.94 106.6799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11156,8 +11176,8 @@
 				(justify right)
 			)
 		)
-		(property "Value" "R"
-			(at 27.94 106.6801 0)
+		(property "Value" "10k"
+			(at 27.94 109.2199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12995,7 +13015,7 @@
 				)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "2k2"
 			(at 25.4 102.108 90)
 			(effects
 				(font
@@ -13610,7 +13630,7 @@
 		(dnp no)
 		(uuid "ab1b2124-07ba-4bf0-86fb-298fa12ad507")
 		(property "Reference" "R17"
-			(at 45.974 105.41 0)
+			(at 45.466 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13618,8 +13638,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
-			(at 45.974 107.95 0)
+		(property "Value" "10k"
+			(at 45.466 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14324,7 +14344,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "22k"
 			(at 71.374 119.38 0)
 			(effects
 				(font
@@ -14579,10 +14599,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "d092becb-16f6-441e-b54b-73bed457ee92")
 		(property "Reference" "C5"
-			(at 77.47 105.4099 0)
+			(at 76.962 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14590,8 +14609,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C"
-			(at 77.47 107.9499 0)
+		(property "Value" "1u"
+			(at 76.962 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16186,15 +16205,15 @@
 		(dnp no)
 		(uuid "fd55d866-ec29-41c4-8fcb-9538fd5cd90e")
 		(property "Reference" "R7"
-			(at 38.1 85.852 90)
+			(at 38.1 86.106 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "R"
-			(at 38.1 88.392 90)
+		(property "Value" "10k"
+			(at 38.1 88.646 90)
 			(effects
 				(font
 					(size 1.27 1.27)
