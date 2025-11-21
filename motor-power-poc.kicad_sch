@@ -13532,7 +13532,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "H5VU10U"
+		(property "Value" "P6SMB6.8CA/TR13"
 			(at 54.61 142.2399 90)
 			(effects
 				(font
@@ -13542,7 +13542,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Pers:Diode_DFN1006"
+		(property "Footprint" "Diode_SMD:D_SMB"
 			(at 61.595 140.97 0)
 			(effects
 				(font
@@ -13551,7 +13551,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2504101957_hongjiacheng-H5VU10U_C22395519.pdf"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C78395.pdf"
 			(at 57.15 140.97 0)
 			(effects
 				(font
@@ -13560,7 +13560,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "-55℃~+155℃ 0.8pF 16V 200nA 55W@8/20us 5A@8/20us 5V 6V ESD IEC 61000-4-2 Unidirectional DFN1006-2L ESD and Surge Protection (TVS/ESD) ROHS"
+		(property "Description" "10.5V 1uA 5.8V 58.1A 6.45V 600W Bidirectional TVS SMB(DO-214AA) ESD and Surge Protection (TVS/ESD) ROHS"
 			(at 57.15 140.97 0)
 			(effects
 				(font
@@ -13569,7 +13569,7 @@
 				(hide yes)
 			)
 		)
-		(property "Basic" "E"
+		(property "Basic" "Y"
 			(at 57.15 140.97 90)
 			(effects
 				(font
@@ -13578,7 +13578,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Part #" "C22395519"
+		(property "JLCPCB Part #" "C78395"
 			(at 57.15 140.97 90)
 			(effects
 				(font
@@ -13587,7 +13587,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "hongjiacheng"
+		(property "Manufacturer" "Brightking"
 			(at 57.15 140.97 90)
 			(effects
 				(font
@@ -13596,7 +13596,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" "H5VU10U"
+		(property "Manufacturer Part Number" "P6SMB6.8CA/TR13"
 			(at 57.15 140.97 90)
 			(effects
 				(font
