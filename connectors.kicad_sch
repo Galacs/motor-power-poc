@@ -1577,21 +1577,9 @@
 		)
 		(uuid 376e0de6-1d44-413d-a9c7-5fd88b24af78)
 	)
-	(rectangle
-		(start 186.69 72.39)
-		(end 251.46 129.54)
-		(stroke
-			(width 0)
-			(type dash)
-		)
-		(fill
-			(type none)
-		)
-		(uuid f54e8b86-5c83-42b6-a2f1-b82d6bcd3666)
-	)
 	(text "Vin (<30V)"
 		(exclude_from_sim no)
-		(at 193.548 82.55 0)
+		(at 168.148 82.55 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1599,9 +1587,9 @@
 		)
 		(uuid "341af9f1-f4c8-4ebd-9307-5e3f16af178e")
 	)
-	(text "TPSxxxx Vin power input"
+	(text "LM74502H Vin power input"
 		(exclude_from_sim no)
-		(at 205.74 127.508 0)
+		(at 180.34 130.048 0)
 		(effects
 			(font
 				(size 1.905 1.905)
@@ -1648,7 +1636,7 @@
 		(uuid "509db757-c04c-4101-9e2d-cd1d9d315189")
 	)
 	(junction
-		(at 196.85 96.52)
+		(at 171.45 96.52)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5b12ad3d-1000-4260-8e4c-8edcdef13ef1")
@@ -1725,7 +1713,7 @@
 	)
 	(wire
 		(pts
-			(xy 195.58 86.36) (xy 200.66 86.36)
+			(xy 170.18 86.36) (xy 175.26 86.36)
 		)
 		(stroke
 			(width 0)
@@ -1745,7 +1733,7 @@
 	)
 	(wire
 		(pts
-			(xy 196.85 88.9) (xy 195.58 88.9)
+			(xy 171.45 88.9) (xy 170.18 88.9)
 		)
 		(stroke
 			(width 0)
@@ -1755,7 +1743,7 @@
 	)
 	(wire
 		(pts
-			(xy 200.66 95.25) (xy 200.66 96.52)
+			(xy 175.26 95.25) (xy 175.26 96.52)
 		)
 		(stroke
 			(width 0)
@@ -1785,7 +1773,7 @@
 	)
 	(wire
 		(pts
-			(xy 196.85 96.52) (xy 196.85 88.9)
+			(xy 171.45 96.52) (xy 171.45 88.9)
 		)
 		(stroke
 			(width 0)
@@ -1805,7 +1793,7 @@
 	)
 	(wire
 		(pts
-			(xy 200.66 86.36) (xy 200.66 87.63)
+			(xy 175.26 86.36) (xy 175.26 87.63)
 		)
 		(stroke
 			(width 0)
@@ -1815,7 +1803,7 @@
 	)
 	(wire
 		(pts
-			(xy 200.66 96.52) (xy 196.85 96.52)
+			(xy 175.26 96.52) (xy 171.45 96.52)
 		)
 		(stroke
 			(width 0)
@@ -1975,7 +1963,7 @@
 	)
 	(wire
 		(pts
-			(xy 196.85 99.06) (xy 196.85 96.52)
+			(xy 171.45 99.06) (xy 171.45 96.52)
 		)
 		(stroke
 			(width 0)
@@ -2435,7 +2423,7 @@
 	)
 	(symbol
 		(lib_id "Device:D_TVS")
-		(at 200.66 91.44 90)
+		(at 175.26 91.44 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2443,7 +2431,7 @@
 		(dnp no)
 		(uuid "0d5d9fab-36ea-469b-88d5-93e26652dc13")
 		(property "Reference" "D5"
-			(at 202.692 91.186 90)
+			(at 177.292 91.186 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2452,7 +2440,7 @@
 			)
 		)
 		(property "Value" "D_TVS"
-			(at 203.2 92.7099 90)
+			(at 177.8 92.7099 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2462,7 +2450,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 200.66 91.44 0)
+			(at 175.26 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2471,7 +2459,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 200.66 91.44 0)
+			(at 175.26 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2480,7 +2468,7 @@
 			)
 		)
 		(property "Description" "Bidirectional transient-voltage-suppression diode"
-			(at 200.66 91.44 0)
+			(at 175.26 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2717,7 +2705,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x02")
-		(at 190.5 88.9 180)
+		(at 165.1 88.9 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2725,7 +2713,7 @@
 		(dnp no)
 		(uuid "28dd3927-17e0-4eac-98b6-aad69a418f98")
 		(property "Reference" "J1"
-			(at 190.5 91.694 0)
+			(at 165.1 91.694 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2733,7 +2721,7 @@
 			)
 		)
 		(property "Value" "Conn_01x02"
-			(at 190.5 82.55 0)
+			(at 165.1 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2742,7 +2730,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 190.5 88.9 0)
+			(at 165.1 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2751,7 +2739,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 190.5 88.9 0)
+			(at 165.1 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2760,7 +2748,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 190.5 88.9 0)
+			(at 165.1 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2785,7 +2773,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 196.85 99.06 0)
+		(at 171.45 99.06 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2794,7 +2782,7 @@
 		(fields_autoplaced yes)
 		(uuid "33b8e2f0-9a71-483e-babe-d76d00ff0903")
 		(property "Reference" "#PWR044"
-			(at 196.85 105.41 0)
+			(at 171.45 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2803,7 +2791,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 196.85 104.14 0)
+			(at 171.45 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2811,7 +2799,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 196.85 99.06 0)
+			(at 171.45 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2820,7 +2808,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 196.85 99.06 0)
+			(at 171.45 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2829,7 +2817,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 196.85 99.06 0)
+			(at 171.45 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
