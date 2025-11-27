@@ -416,6 +416,10 @@
     [
       "dba74ea3-505d-49e4-ba26-48f567962081",
       "Connectors"
+    ],
+    [
+      "c6ffff07-df24-4c45-882d-f55b522e3469",
+      "Power"
     ]
   ],
   "text_variables": {}
