@@ -9402,6 +9402,49 @@
 		)
 	)
 	(sheet
+		(at 52.07 17.78)
+		(size 12.7 12.7)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "234f18ec-899d-4a38-bb51-5ceaab0ae171")
+		(property "Sheetname" "H-bridge"
+			(at 52.07 17.0684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "h-bridge.kicad_sch"
+			(at 52.07 31.0646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "motor-power-poc"
+				(path "/a1dc4c9e-7b20-4b66-a693-9133bc644c6b"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 34.29 17.78)
 		(size 12.7 12.7)
 		(exclude_from_sim no)

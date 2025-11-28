@@ -420,6 +420,10 @@
     [
       "c6ffff07-df24-4c45-882d-f55b522e3469",
       "Power"
+    ],
+    [
+      "234f18ec-899d-4a38-bb51-5ceaab0ae171",
+      "H-bridge"
     ]
   ],
   "text_variables": {}
