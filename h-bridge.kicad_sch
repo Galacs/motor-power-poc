@@ -4175,72 +4175,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+12V")
-		(at 193.04 111.76 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "2d8dd404-4249-4fd2-b917-65c1d2bdca60")
-		(property "Reference" "#PWR064"
-			(at 193.04 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+12V"
-			(at 193.04 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 193.04 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 193.04 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+12V\""
-			(at 193.04 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "c954bb15-b0ad-4754-ae26-511e614977e2")
-		)
-		(instances
-			(project "motor-power-poc"
-				(path "/a1dc4c9e-7b20-4b66-a693-9133bc644c6b/234f18ec-899d-4a38-bb51-5ceaab0ae171"
-					(reference "#PWR064")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 114.3 96.52 0)
 		(mirror y)
@@ -4380,72 +4314,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+12V")
-		(at 193.04 55.88 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "40a435bf-f146-43aa-93dd-401fa6fa44f6")
-		(property "Reference" "#PWR059"
-			(at 193.04 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+12V"
-			(at 193.04 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 193.04 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 193.04 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+12V\""
-			(at 193.04 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "77aa4047-e832-43bb-ac89-ef2d3b597eba")
-		)
-		(instances
-			(project ""
-				(path "/a1dc4c9e-7b20-4b66-a693-9133bc644c6b/234f18ec-899d-4a38-bb51-5ceaab0ae171"
-					(reference "#PWR059")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 135.89 54.61 90)
 		(unit 1)
@@ -4507,6 +4375,71 @@
 			(project "motor-power-poc"
 				(path "/a1dc4c9e-7b20-4b66-a693-9133bc644c6b/234f18ec-899d-4a38-bb51-5ceaab0ae171"
 					(reference "R22")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+12V")
+		(at 193.04 111.76 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6379efa8-b007-4881-a10d-d39f3ead43ef")
+		(property "Reference" "#PWR064"
+			(at 193.04 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+Vdc"
+			(at 193.04 107.442 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 193.04 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 193.04 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+12V\""
+			(at 193.04 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c44e24a4-d348-4198-aada-e6619444f823")
+		)
+		(instances
+			(project "motor-power-poc"
+				(path "/a1dc4c9e-7b20-4b66-a693-9133bc644c6b/234f18ec-899d-4a38-bb51-5ceaab0ae171"
+					(reference "#PWR064")
 					(unit 1)
 				)
 			)
@@ -5019,6 +4952,71 @@
 			(project ""
 				(path "/a1dc4c9e-7b20-4b66-a693-9133bc644c6b/234f18ec-899d-4a38-bb51-5ceaab0ae171"
 					(reference "R28")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+12V")
+		(at 193.04 55.88 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "99ba4aa8-091e-4870-a8c4-ac686ff92039")
+		(property "Reference" "#PWR078"
+			(at 193.04 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+Vdc"
+			(at 193.04 51.562 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 193.04 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 193.04 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+12V\""
+			(at 193.04 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e4499a8d-8809-4015-bc07-bb2d92898ac0")
+		)
+		(instances
+			(project "motor-power-poc"
+				(path "/a1dc4c9e-7b20-4b66-a693-9133bc644c6b/234f18ec-899d-4a38-bb51-5ceaab0ae171"
+					(reference "#PWR078")
 					(unit 1)
 				)
 			)
