@@ -2628,6 +2628,26 @@
 		)
 		(uuid "a90cb19d-0756-40d3-a4df-09d400c95e97")
 	)
+	(text_box "(3) DRV8701 gate driver calculations\n\nShunt resistor\nImax at 20mΩ and 3V SO output = 7.4A\nRpower at 8A = 1.3W\n\nCurrent regulation\ndesired Ichop = 5A\n-> Vref = 2.05V\n2.05V from 4.8V AVDD with R1=10k and R2=7k5"
+		(exclude_from_sim no)
+		(at 304.8 120.65 0)
+		(size 69.85 35.56)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width -0.0001)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "19ded98c-469e-4fa3-b6fb-8062bb80f172")
+	)
 	(text_box "(1) TPS5430 SMPS calculations\n\nVin range = 6-36v\nVout = 5v\nInput ripple\nOutput ripple voltage = 100mV\nOutput current = 2.5A\n\nVin ripple = 132.5mV with 10µF, 3mOhm ESR\n\nBulk\nF = 500kHz, T = 0.5*µS\nallowed Vin dip time: t = 5µS by dV=0.5V\n\nLmin calculation\nKind = 0.2\nLmin = 17 µH\nIl(rms) = 2.507 A\nIl(PK) = 2.8 A\n\nOutput C\nFlc = 18kHz\nFco = 42kHz\nCout = 78µF\nESRmax = 0.05 Omh\n-> Vpp = "
 		(exclude_from_sim no)
 		(at 304.8 20.32 0)
@@ -2650,8 +2670,8 @@
 	)
 	(text_box "(2) TPS2121 Power mux calculations\n\nOV protection\ntriggers when OVx > Vref\nVref = 1.06V\nVin(max) = 6V\n10 kΩ & 2.2 kΩ -> 1.082 V OVx when 6v Vin\n\nILM\nRilm = 22k\n-> Ilm = 4.5A\n\nSWITCH\nVcp2 = 2.5V\nVPR1 = 3.1V\nIN1 min V to switch = 4V"
 		(exclude_from_sim no)
-		(at 304.8 87.63 0)
-		(size 69.85 55.88)
+		(at 304.8 81.28 0)
+		(size 69.85 35.56)
 		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
 			(width -0.0001)
