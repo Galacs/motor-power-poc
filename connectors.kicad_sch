@@ -1770,6 +1770,155 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "GLCS:H5VU10U"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "H5VU10U"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "GLCS:Diode_DFN1006"
+				(at 0 -4.445 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2504101957_hongjiacheng-H5VU10U_C22395519.pdf"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "-55℃~+155℃ 0.8pF 16V 200nA 55W@8/20us 5A@8/20us 5V 6V ESD IEC 61000-4-2 Unidirectional DFN1006-2L ESD and Surge Protection (TVS/ESD) ROHS"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "zener diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "D*DO?41*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "H5VU10U_0_1"
+				(polyline
+					(pts
+						(xy -1.27 -1.27) (xy -1.27 1.27) (xy -0.762 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy -1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -1.27) (xy 1.27 1.27) (xy -1.27 0) (xy 1.27 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "H5VU10U_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "GLCS:LM74502"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -2411,155 +2560,6 @@
 						)
 					)
 					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "Pers:H5VU10U"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "D"
-				(at 0 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "H5VU10U"
-				(at 0 -2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "Pers:Diode_DFN1006"
-				(at 0 -4.445 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2504101957_hongjiacheng-H5VU10U_C22395519.pdf"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "-55℃~+155℃ 0.8pF 16V 200nA 55W@8/20us 5A@8/20us 5V 6V ESD IEC 61000-4-2 Unidirectional DFN1006-2L ESD and Surge Protection (TVS/ESD) ROHS"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "zener diode"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "D*DO?41*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "H5VU10U_0_1"
-				(polyline
-					(pts
-						(xy -1.27 -1.27) (xy -1.27 1.27) (xy -0.762 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 0) (xy -1.27 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 -1.27) (xy 1.27 1.27) (xy -1.27 0) (xy 1.27 -1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "H5VU10U_1_1"
-				(pin passive line
-					(at -3.81 0 0)
-					(length 2.54)
-					(name "K"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 3.81 0 180)
-					(length 2.54)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -5258,7 +5258,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SMB"
 			(at 162.56 101.6 0)
 			(effects
 				(font
@@ -5278,6 +5278,42 @@
 		)
 		(property "Description" "Bidirectional transient-voltage-suppression diode"
 			(at 162.56 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Basic" "E"
+			(at 162.56 101.6 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" "C2925441"
+			(at 162.56 101.6 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Liown"
+			(at 162.56 101.6 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "SMBJ30CA"
+			(at 162.56 101.6 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5328,7 +5364,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
 			(at 70.1548 146.05 0)
 			(effects
 				(font
@@ -5371,7 +5407,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Pers:H5VU10U")
+		(lib_id "GLCS:H5VU10U")
 		(at 107.95 111.76 270)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5398,7 +5434,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Pers:Diode_DFN1006"
+		(property "Footprint" "GLCS:Diode_DFN1006"
 			(at 103.505 111.76 0)
 			(effects
 				(font
@@ -5477,7 +5513,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Pers:H5VU10U")
+		(lib_id "GLCS:H5VU10U")
 		(at 99.06 109.22 270)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5504,7 +5540,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Pers:Diode_DFN1006"
+		(property "Footprint" "GLCS:Diode_DFN1006"
 			(at 94.615 109.22 0)
 			(effects
 				(font
@@ -5877,7 +5913,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
 			(at 224.79 111.76 0)
 			(effects
 				(font
@@ -5946,7 +5982,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_SO:Vishay_PowerPAK_1212-8_Single"
 			(at 219.71 82.55 0)
 			(effects
 				(font
@@ -6295,7 +6331,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Pers:H5VU10U")
+		(lib_id "GLCS:H5VU10U")
 		(at 78.74 142.24 270)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6322,7 +6358,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Pers:Diode_DFN1006"
+		(property "Footprint" "GLCS:Diode_DFN1006"
 			(at 74.295 142.24 0)
 			(effects
 				(font
@@ -6560,7 +6596,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 195.58 104.14 0)
 			(effects
 				(font
@@ -6630,7 +6666,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 173.0248 105.41 0)
 			(effects
 				(font
@@ -6766,7 +6802,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "GLCS:TestPoint_Keystone_5015_Micro_Mini"
 			(at 245.11 85.09 0)
 			(effects
 				(font
@@ -7028,7 +7064,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "GLCS:TestPoint_Keystone_5015_Micro_Mini"
 			(at 173.99 95.25 0)
 			(effects
 				(font
@@ -7161,7 +7197,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 223.8248 95.25 0)
 			(effects
 				(font
@@ -7204,7 +7240,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Pers:H5VU10U")
+		(lib_id "GLCS:H5VU10U")
 		(at 102.87 93.98 90)
 		(mirror x)
 		(unit 1)
@@ -7232,7 +7268,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SMB"
+		(property "Footprint" "GLCS:Diode_DFN1006"
 			(at 107.315 93.98 0)
 			(effects
 				(font
@@ -7241,7 +7277,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/C78395.pdf"
+		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2504101957_hongjiacheng-H5VU10U_C22395519.pdf"
 			(at 102.87 93.98 0)
 			(effects
 				(font
@@ -7250,7 +7286,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "10.5V 1uA 5.8V 58.1A 6.45V 600W Bidirectional TVS SMB(DO-214AA) ESD and Surge Protection (TVS/ESD) ROHS"
+		(property "Description" "-55℃~+155℃ 0.8pF 16V 200nA 55W@8/20us 5A@8/20us 5V 6V ESD IEC 61000-4-2 Unidirectional DFN1006-2L ESD and Surge Protection (TVS/ESD) ROHS"
 			(at 102.87 93.98 0)
 			(effects
 				(font
@@ -7403,7 +7439,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 187.198 115.57 90)
 			(effects
 				(font
@@ -7473,7 +7509,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
 			(at 86.6648 156.21 0)
 			(effects
 				(font
@@ -7666,7 +7702,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Pers:H5VU10U")
+		(lib_id "GLCS:H5VU10U")
 		(at 93.98 152.4 270)
 		(unit 1)
 		(exclude_from_sim no)
@@ -7693,7 +7729,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Pers:Diode_DFN1006"
+		(property "Footprint" "GLCS:Diode_DFN1006"
 			(at 89.535 152.4 0)
 			(effects
 				(font
@@ -7800,7 +7836,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical"
 			(at 113.03 152.146 0)
 			(effects
 				(font
@@ -7874,7 +7910,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical"
 			(at 113.03 141.986 0)
 			(effects
 				(font
@@ -8013,7 +8049,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 187.198 105.41 90)
 			(effects
 				(font
@@ -8082,7 +8118,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_SO:Vishay_PowerPAK_1212-8_Single"
 			(at 199.39 82.55 0)
 			(effects
 				(font
@@ -8155,7 +8191,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 232.918 102.87 90)
 			(effects
 				(font
