@@ -3439,6 +3439,12 @@
 		(uuid "5cf4d376-84ee-4914-8dbd-7cf096cfbf95")
 	)
 	(junction
+		(at 232.41 85.09)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6924f4f3-d1e4-4d7d-ae6f-ba2827f4adb7")
+	)
+	(junction
 		(at 240.03 85.09)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3557,6 +3563,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "fbd0d49f-e31d-4f7e-9e8b-a0d3d2bdd396")
+	)
+	(junction
+		(at 165.1 95.25)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fcbc793c-96d7-4848-b060-102a3a967057")
 	)
 	(wire
 		(pts
@@ -3960,6 +3972,16 @@
 	)
 	(wire
 		(pts
+			(xy 232.41 85.09) (xy 240.03 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "61d5ab87-6a58-493c-a458-677f187f4218")
+	)
+	(wire
+		(pts
 			(xy 90.17 106.68) (xy 107.95 106.68)
 		)
 		(stroke
@@ -3967,6 +3989,16 @@
 			(type default)
 		)
 		(uuid "64c3d368-b5d7-40e1-bb4a-0fdd426bee7c")
+	)
+	(wire
+		(pts
+			(xy 165.1 95.25) (xy 168.91 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "665291cf-e45e-46bc-8a84-aa13b03a9d45")
 	)
 	(wire
 		(pts
@@ -4190,7 +4222,7 @@
 	)
 	(wire
 		(pts
-			(xy 162.56 95.25) (xy 168.91 95.25)
+			(xy 162.56 95.25) (xy 165.1 95.25)
 		)
 		(stroke
 			(width 0)
@@ -4240,7 +4272,7 @@
 	)
 	(wire
 		(pts
-			(xy 228.6 85.09) (xy 240.03 85.09)
+			(xy 228.6 85.09) (xy 232.41 85.09)
 		)
 		(stroke
 			(width 0)
@@ -5120,6 +5152,73 @@
 			(project "motor-power-poc"
 				(path "/a1dc4c9e-7b20-4b66-a693-9133bc644c6b/dba74ea3-505d-49e4-ba26-48f567962081"
 					(reference "R15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 232.41 85.09 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "07702926-73f9-4d5e-96d8-3cb987a6c53d")
+		(property "Reference" "#FLG07"
+			(at 232.41 86.995 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 232.41 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 232.41 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 232.41 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 232.41 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "21b883ce-7520-4c1e-a340-071741057889")
+		)
+		(instances
+			(project "motor-power-poc"
+				(path "/a1dc4c9e-7b20-4b66-a693-9133bc644c6b/dba74ea3-505d-49e4-ba26-48f567962081"
+					(reference "#FLG07")
 					(unit 1)
 				)
 			)
@@ -6051,6 +6150,73 @@
 			(project "motor-power-poc"
 				(path "/a1dc4c9e-7b20-4b66-a693-9133bc644c6b/dba74ea3-505d-49e4-ba26-48f567962081"
 					(reference "R14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 165.1 95.25 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "52de0610-edd5-486e-96ae-0b7ad21d7331")
+		(property "Reference" "#FLG06"
+			(at 165.1 93.345 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 165.1 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 165.1 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 165.1 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 165.1 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d7f35054-386f-4aea-8267-e8e3793d411f")
+		)
+		(instances
+			(project "motor-power-poc"
+				(path "/a1dc4c9e-7b20-4b66-a693-9133bc644c6b/dba74ea3-505d-49e4-ba26-48f567962081"
+					(reference "#FLG06")
 					(unit 1)
 				)
 			)
@@ -7369,7 +7535,7 @@
 				)
 			)
 		)
-		(property "Footprint" "GLCS:SOT-23-8"
+		(property "Footprint" "GLCS:SOT-23-THIN-8"
 			(at 200.025 114.3 0)
 			(effects
 				(font

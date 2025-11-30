@@ -2196,6 +2196,107 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "power:PWR_FLAG"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#FLG"
+				(at 0 1.905 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "PWR_FLAG"
+				(at 0 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Special symbol for telling ERC where power comes from"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "flag power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "PWR_FLAG_0_0"
+				(pin power_out line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "PWR_FLAG_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 1.27) (xy -1.016 1.905) (xy 0 2.54) (xy 1.016 1.905) (xy 0 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 	)
 	(rectangle
 		(start 92.71 44.45)
@@ -2285,6 +2386,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6836c459-75e3-4531-8e3a-ea038e6fc1aa")
+	)
+	(junction
+		(at 140.97 64.77)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "70728f05-7dd8-45c8-8b4e-050a27f43bf1")
 	)
 	(junction
 		(at 184.15 58.42)
@@ -2475,6 +2582,16 @@
 			(type default)
 		)
 		(uuid "19f4225e-bbd1-4ff0-a298-bddaa1bd50c6")
+	)
+	(wire
+		(pts
+			(xy 140.97 64.77) (xy 140.97 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "20945089-c092-4112-a055-8c0caa717232")
 	)
 	(wire
 		(pts
@@ -2765,16 +2882,6 @@
 			(type default)
 		)
 		(uuid "65bc1310-b74d-444b-86ec-1d727e124b72")
-	)
-	(wire
-		(pts
-			(xy 140.97 54.61) (xy 140.97 68.58)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6afb8570-3473-4268-b6cc-52b3bc661708")
 	)
 	(wire
 		(pts
@@ -3255,6 +3362,16 @@
 			(type default)
 		)
 		(uuid "c3a6817c-1f09-4f7d-9ded-b1998e87094b")
+	)
+	(wire
+		(pts
+			(xy 140.97 54.61) (xy 140.97 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c45aa6c6-e59c-427a-a025-461dbdb510b0")
 	)
 	(wire
 		(pts
@@ -5525,6 +5642,73 @@
 			(project ""
 				(path "/a1dc4c9e-7b20-4b66-a693-9133bc644c6b/234f18ec-899d-4a38-bb51-5ceaab0ae171"
 					(reference "U11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 140.97 64.77 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f64c1848-3e29-4da0-8885-ccd8c7200453")
+		(property "Reference" "#FLG04"
+			(at 139.065 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 135.89 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 140.97 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 140.97 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 140.97 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d262141c-26f5-4976-ad53-c6923628849b")
+		)
+		(instances
+			(project "motor-power-poc"
+				(path "/a1dc4c9e-7b20-4b66-a693-9133bc644c6b/234f18ec-899d-4a38-bb51-5ceaab0ae171"
+					(reference "#FLG04")
 					(unit 1)
 				)
 			)

@@ -3620,6 +3620,12 @@
 		(uuid "823d08e6-1aee-4d2d-8c6a-359970d18598")
 	)
 	(junction
+		(at 163.83 21.59)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "83024e25-4608-4493-9eb3-29674e75a8fc")
+	)
+	(junction
 		(at 189.23 21.59)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4135,7 +4141,7 @@
 	)
 	(wire
 		(pts
-			(xy 153.67 21.59) (xy 173.99 21.59)
+			(xy 153.67 21.59) (xy 163.83 21.59)
 		)
 		(stroke
 			(width 0)
@@ -4875,6 +4881,16 @@
 	)
 	(wire
 		(pts
+			(xy 163.83 21.59) (xy 163.83 22.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a84902e1-fdd0-441a-9017-4247572a79fb")
+	)
+	(wire
+		(pts
 			(xy 17.78 180.34) (xy 22.86 180.34)
 		)
 		(stroke
@@ -5195,6 +5211,16 @@
 	)
 	(wire
 		(pts
+			(xy 163.83 21.59) (xy 173.99 21.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d29ea2b2-eaa3-4948-9916-86f81ad9eada")
+	)
+	(wire
+		(pts
 			(xy 219.71 49.53) (xy 207.01 49.53)
 		)
 		(stroke
@@ -5423,7 +5449,17 @@
 		)
 		(uuid "fd5ad903-592f-4d79-9800-49ac8536f91c")
 	)
-	(label "BOOT{slash}SCL"
+	(label "CHIP_PU"
+		(at 163.83 64.77 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "11b1b72a-136b-4992-9aee-1e5eee1dc545")
+	)
+	(label "BOOT"
 		(at 77.47 177.8 180)
 		(effects
 			(font
