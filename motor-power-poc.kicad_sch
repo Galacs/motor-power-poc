@@ -4,6 +4,12 @@
 	(generator_version "9.0")
 	(uuid "a1dc4c9e-7b20-4b66-a693-9133bc644c6b")
 	(paper "A4")
+	(title_block
+		(title "Motor Power POC")
+		(date "2025-11-30")
+		(rev "01")
+		(company "Rémi Ait-Younes")
+	)
 	(lib_symbols
 		(symbol "Connector:Conn_01x04_Pin"
 			(pin_names
