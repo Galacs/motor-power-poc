@@ -4572,7 +4572,7 @@
 		)
 	)
 	(global_label "SERVO2"
-		(shape output)
+		(shape input)
 		(at 102.87 144.78 180)
 		(fields_autoplaced yes)
 		(effects
@@ -4594,7 +4594,7 @@
 		)
 	)
 	(global_label "SERVO1"
-		(shape output)
+		(shape input)
 		(at 102.87 134.62 180)
 		(fields_autoplaced yes)
 		(effects
