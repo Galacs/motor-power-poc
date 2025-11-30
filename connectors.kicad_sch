@@ -3368,6 +3368,12 @@
 		(uuid "a6e37031-7adf-4786-94c0-1712a5ecb81f")
 	)
 	(junction
+		(at 228.6 85.09)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b57862a3-189b-444e-90e5-d15d5613fa37")
+	)
+	(junction
 		(at 102.87 88.9)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4089,6 +4095,16 @@
 	)
 	(wire
 		(pts
+			(xy 228.6 85.09) (xy 238.76 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "91436d8f-23df-44f4-be6f-00ed00ad9920")
+	)
+	(wire
+		(pts
 			(xy 99.06 104.14) (xy 115.57 104.14)
 		)
 		(stroke
@@ -4594,6 +4610,17 @@
 				(hide yes)
 			)
 		)
+	)
+	(hierarchical_label "+Vin"
+		(shape output)
+		(at 238.76 85.09 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "886f16dd-0b78-4408-ad52-39166c365541")
 	)
 	(symbol
 		(lib_id "Connector:USB_C_Receptacle_USB2.0_14P")
