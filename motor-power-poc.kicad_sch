@@ -4322,7 +4322,7 @@
 	)
 	(wire
 		(pts
-			(xy 29.21 21.59) (xy 34.29 21.59)
+			(xy 29.21 20.32) (xy 34.29 20.32)
 		)
 		(stroke
 			(width 0)
@@ -4652,6 +4652,16 @@
 	)
 	(wire
 		(pts
+			(xy 29.21 26.67) (xy 34.29 26.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ae2978ad-b077-4a22-966b-68ef30e973cb")
+	)
+	(wire
+		(pts
 			(xy 31.75 190.5) (xy 31.75 189.23)
 		)
 		(stroke
@@ -4672,7 +4682,7 @@
 	)
 	(wire
 		(pts
-			(xy 29.21 24.13) (xy 34.29 24.13)
+			(xy 29.21 22.86) (xy 34.29 22.86)
 		)
 		(stroke
 			(width 0)
@@ -12061,7 +12071,7 @@
 			)
 		)
 		(pin "+Vin" input
-			(at 34.29 21.59 180)
+			(at 34.29 20.32 180)
 			(uuid "a70f2836-92a7-4f7c-8cf3-332833f6597d")
 			(effects
 				(font
@@ -12081,8 +12091,18 @@
 			)
 		)
 		(pin "+Vbus" input
-			(at 34.29 24.13 180)
+			(at 34.29 22.86 180)
 			(uuid "cbbf8b6b-7181-4056-a310-9bbf02599608")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "+5V" output
+			(at 34.29 26.67 180)
+			(uuid "23e73c3f-a5c7-4648-ab99-b2399e4ac953")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12134,7 +12154,7 @@
 			)
 		)
 		(pin "+Vin" output
-			(at 29.21 21.59 0)
+			(at 29.21 20.32 0)
 			(uuid "34c192fc-3f9e-4208-8916-7f576f508e39")
 			(effects
 				(font
@@ -12144,8 +12164,18 @@
 			)
 		)
 		(pin "+Vbus" output
-			(at 29.21 24.13 0)
+			(at 29.21 22.86 0)
 			(uuid "a823c843-5b3e-4291-a2ac-d060eabd1ba5")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "+5V" input
+			(at 29.21 26.67 0)
+			(uuid "edd5bc7e-21d4-46d3-94ed-036227c7d2f8")
 			(effects
 				(font
 					(size 1.27 1.27)
