@@ -3356,6 +3356,12 @@
 		(uuid "9aaca717-b3cc-4581-bd24-fa0ed8049f75")
 	)
 	(junction
+		(at 107.95 88.9)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9ac1028f-f137-4f53-80ea-50cbc34f8ab5")
+	)
+	(junction
 		(at 222.25 115.57)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3802,6 +3808,16 @@
 			(type default)
 		)
 		(uuid "5db2b0e2-d32f-4c3e-9a11-9d2e19d98f89")
+	)
+	(wire
+		(pts
+			(xy 107.95 88.9) (xy 111.76 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5e246cce-9b75-4ee1-88c4-9372f6309eeb")
 	)
 	(wire
 		(pts
@@ -4610,6 +4626,17 @@
 				(hide yes)
 			)
 		)
+	)
+	(hierarchical_label "+Vbus"
+		(shape output)
+		(at 111.76 88.9 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "7434c58a-a041-44a6-b08f-2e33dd14217b")
 	)
 	(hierarchical_label "+Vin"
 		(shape output)
@@ -7124,8 +7151,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "VBUS"
-			(at 110.49 85.852 0)
+		(property "Value" "+Vbus"
+			(at 99.822 84.582 0)
 			(effects
 				(font
 					(size 1.27 1.27)

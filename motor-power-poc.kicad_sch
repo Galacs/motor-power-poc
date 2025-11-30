@@ -4672,6 +4672,16 @@
 	)
 	(wire
 		(pts
+			(xy 29.21 24.13) (xy 34.29 24.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b037b21f-c646-4155-b68f-1c023e3ec82a")
+	)
+	(wire
+		(pts
 			(xy 199.39 33.02) (xy 199.39 34.29)
 		)
 		(stroke
@@ -12070,6 +12080,16 @@
 				(justify right)
 			)
 		)
+		(pin "+Vbus" input
+			(at 34.29 24.13 180)
+			(uuid "cbbf8b6b-7181-4056-a310-9bbf02599608")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
 		(instances
 			(project "motor-power-poc"
 				(path "/a1dc4c9e-7b20-4b66-a693-9133bc644c6b"
@@ -12116,6 +12136,16 @@
 		(pin "+Vin" output
 			(at 29.21 21.59 0)
 			(uuid "34c192fc-3f9e-4208-8916-7f576f508e39")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "+Vbus" output
+			(at 29.21 24.13 0)
+			(uuid "a823c843-5b3e-4291-a2ac-d060eabd1ba5")
 			(effects
 				(font
 					(size 1.27 1.27)
