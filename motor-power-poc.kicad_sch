@@ -3638,12 +3638,6 @@
 		(uuid "93997acb-9938-4d15-ba00-ab701fa5f383")
 	)
 	(junction
-		(at 255.27 72.39)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "a38be429-1c08-4a76-b168-b9275bdce58d")
-	)
-	(junction
 		(at 20.32 130.81)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3686,12 +3680,6 @@
 		(uuid "f13535af-a175-4ded-8a0e-39f0274e1306")
 	)
 	(junction
-		(at 250.19 72.39)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f4b128c4-9b04-4f2e-9b63-8a3625da3c58")
-	)
-	(junction
 		(at 219.71 39.37)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3708,6 +3696,10 @@
 	(no_connect
 		(at 232.41 57.15)
 		(uuid "095624c0-81bf-49ca-bb11-972294bf5b36")
+	)
+	(no_connect
+		(at 232.41 77.47)
+		(uuid "0a645de4-d12f-449a-acc8-8ae4703e2068")
 	)
 	(no_connect
 		(at 232.41 125.73)
@@ -3784,6 +3776,10 @@
 	(no_connect
 		(at 166.37 120.65)
 		(uuid "95754152-3d3f-458b-a195-741022c3a3df")
+	)
+	(no_connect
+		(at 232.41 80.01)
+		(uuid "af01c2f4-735f-4855-96b4-9fdf59337687")
 	)
 	(no_connect
 		(at 166.37 128.27)
@@ -3991,16 +3987,6 @@
 	)
 	(wire
 		(pts
-			(xy 255.27 72.39) (xy 255.27 73.66)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1ec96c4b-17c8-4b03-9c7d-b8d84e8af561")
-	)
-	(wire
-		(pts
 			(xy 232.41 85.09) (xy 234.95 85.09)
 		)
 		(stroke
@@ -4018,16 +4004,6 @@
 			(type default)
 		)
 		(uuid "2132613f-413f-438c-979f-1b40b5fa239a")
-	)
-	(wire
-		(pts
-			(xy 232.41 80.01) (xy 241.3 80.01)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "226bbf4e-ad6d-45b7-8968-4814087a4a22")
 	)
 	(wire
 		(pts
@@ -4108,16 +4084,6 @@
 			(type default)
 		)
 		(uuid "313f4bb8-7d1b-4533-bd97-38e9ae8159fd")
-	)
-	(wire
-		(pts
-			(xy 250.19 82.55) (xy 250.19 81.28)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3191ff34-554e-4ef1-99bc-6c88f6ffaeff")
 	)
 	(wire
 		(pts
@@ -4211,16 +4177,6 @@
 	)
 	(wire
 		(pts
-			(xy 259.08 72.39) (xy 255.27 72.39)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3d16e675-175f-498e-8775-ce5807017a66")
-	)
-	(wire
-		(pts
 			(xy 135.89 63.5) (xy 135.89 64.77)
 		)
 		(stroke
@@ -4228,16 +4184,6 @@
 			(type default)
 		)
 		(uuid "3e438432-6c7d-43a1-8e45-f4a69f0ce1a5")
-	)
-	(wire
-		(pts
-			(xy 243.84 82.55) (xy 250.19 82.55)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "43a6f8ca-c219-4944-a9a7-ec73d4da847b")
 	)
 	(wire
 		(pts
@@ -4268,16 +4214,6 @@
 			(type default)
 		)
 		(uuid "49930f0d-bcf8-402b-8663-644e9e40dba0")
-	)
-	(wire
-		(pts
-			(xy 243.84 77.47) (xy 243.84 82.55)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4abf7a02-413f-4899-a02e-b0e2f569f2d2")
 	)
 	(wire
 		(pts
@@ -4441,7 +4377,7 @@
 	)
 	(wire
 		(pts
-			(xy 250.19 72.39) (xy 245.11 72.39)
+			(xy 245.11 72.39) (xy 259.08 72.39)
 		)
 		(stroke
 			(width 0)
@@ -4641,36 +4577,6 @@
 	)
 	(wire
 		(pts
-			(xy 241.3 80.01) (xy 241.3 83.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "827eb558-316a-45df-860d-83469506d3d3")
-	)
-	(wire
-		(pts
-			(xy 241.3 83.82) (xy 255.27 83.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "82c6f912-a5d9-46e8-a60c-5f686ecb791c")
-	)
-	(wire
-		(pts
-			(xy 255.27 81.28) (xy 255.27 83.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "84323063-846e-4010-a984-837e6db0001c")
-	)
-	(wire
-		(pts
 			(xy 153.67 64.77) (xy 149.86 64.77)
 		)
 		(stroke
@@ -4778,16 +4684,6 @@
 			(type default)
 		)
 		(uuid "99ddfd59-d4ec-43b8-b964-ca928080a9ce")
-	)
-	(wire
-		(pts
-			(xy 232.41 77.47) (xy 243.84 77.47)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9beae9e7-195e-4aa6-b524-4c1607a0908a")
 	)
 	(wire
 		(pts
@@ -5021,16 +4917,6 @@
 	)
 	(wire
 		(pts
-			(xy 255.27 72.39) (xy 250.19 72.39)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bb129e9b-311d-479d-99d1-55b2f2bf8cf9")
-	)
-	(wire
-		(pts
 			(xy 191.77 38.1) (xy 191.77 52.07)
 		)
 		(stroke
@@ -5238,16 +5124,6 @@
 			(type default)
 		)
 		(uuid "d3c14e47-c0b0-49b6-bada-263d5cefce87")
-	)
-	(wire
-		(pts
-			(xy 250.19 72.39) (xy 250.19 73.66)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d6234607-92ce-4009-9732-6dc227f8aad7")
 	)
 	(wire
 		(pts
@@ -5479,16 +5355,6 @@
 		)
 		(uuid "2fadeb11-1d1f-4e51-97c3-893dcae3239e")
 	)
-	(label "SCL"
-		(at 237.49 77.47 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "31c42f10-7e42-4d3c-bd55-235951e6e894")
-	)
 	(label "RF_TRANS"
 		(at 138.43 44.45 0)
 		(effects
@@ -5568,16 +5434,6 @@
 			(justify left bottom)
 		)
 		(uuid "80a1b992-9a59-4042-b4a1-fd772d6d9e49")
-	)
-	(label "SDA"
-		(at 237.49 80.01 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "88036d83-958e-4a9e-b8ca-942497339ce7")
 	)
 	(label "XTAL_P"
 		(at 158.75 80.01 0)
@@ -12102,7 +11958,7 @@
 		(dnp no)
 		(uuid "ea85370f-240f-4e88-a4ec-94da72909f64")
 		(property "Reference" "R8"
-			(at 241.3 70.104 90)
+			(at 241.3 74.676 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12110,7 +11966,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 241.3 72.39 90)
+			(at 241.3 76.454 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12296,217 +12152,6 @@
 			(project "motor-power-poc"
 				(path "/a1dc4c9e-7b20-4b66-a693-9133bc644c6b"
 					(reference "C19")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 255.27 77.47 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "ef733c14-d3a0-4ec4-9b01-f6717e187179")
-		(property "Reference" "R13"
-			(at 256.794 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "20k"
-			(at 256.794 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 253.492 77.47 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 255.27 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 255.27 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Basic" "Y"
-			(at 255.27 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLCPCB Part #" "C25765"
-			(at 255.27 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Uniroyal Elec"
-			(at 255.27 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer Part Number" "0402WGF2002TCE"
-			(at 255.27 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "0bb6123e-6c5f-4325-ae0d-e8061f320fa6")
-		)
-		(pin "1"
-			(uuid "440d8811-6e9f-491e-a8c9-81f06ca41de3")
-		)
-		(instances
-			(project "motor-power-poc"
-				(path "/a1dc4c9e-7b20-4b66-a693-9133bc644c6b"
-					(reference "R13")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 250.19 77.47 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "f2ead43b-35ab-47d1-b44f-995a42f9d074")
-		(property "Reference" "R12"
-			(at 248.666 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "20k"
-			(at 248.666 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 251.968 77.47 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 250.19 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 250.19 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Basic" "Y"
-			(at 250.19 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLCPCB Part #" "C25765"
-			(at 250.19 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Uniroyal Elec"
-			(at 250.19 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer Part Number" "0402WGF2002TCE"
-			(at 250.19 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "51612a5a-961e-4886-9460-135aa5bc2081")
-		)
-		(pin "1"
-			(uuid "b8441388-8aa2-4c33-b89a-054206a87f91")
-		)
-		(instances
-			(project "motor-power-poc"
-				(path "/a1dc4c9e-7b20-4b66-a693-9133bc644c6b"
-					(reference "R12")
 					(unit 1)
 				)
 			)
