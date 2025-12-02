@@ -2251,7 +2251,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Transistor_FET:SiS415DNT"
+		(symbol "Transistor_FET:SiS454DN"
 			(pin_names
 				(hide yes)
 			)
@@ -2267,7 +2267,7 @@
 					(justify left)
 				)
 			)
-			(property "Value" "SiS415DNT"
+			(property "Value" "SiS454DN"
 				(at 5.08 0 0)
 				(effects
 					(font
@@ -2287,7 +2287,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "https://www.vishay.com/docs/63684/sis415dnt.pdf"
+			(property "Datasheet" "https://www.vishay.com/docs/66707/sis454dn.pdf"
 				(at 5.08 -3.81 0)
 				(effects
 					(font
@@ -2297,7 +2297,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "-35A Id, -20V Vds, P-Channel MOSFET, PowerPAK 1212-8 Single"
+			(property "Description" "35A Id, 20V Vds, N-Channel MOSFET, PowerPAK 1212-8 Single"
 				(at 0 0 0)
 				(effects
 					(font
@@ -2306,7 +2306,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "P-Channel MOSFET"
+			(property "ki_keywords" "N-Channel MOSFET"
 				(at 0 0 0)
 				(effects
 					(font
@@ -2324,7 +2324,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "SiS415DNT_0_1"
+			(symbol "SiS454DN_0_1"
 				(polyline
 					(pts
 						(xy 0.254 1.905) (xy 0.254 -1.905)
@@ -2363,18 +2363,6 @@
 				)
 				(polyline
 					(pts
-						(xy 0.762 1.778) (xy 3.302 1.778) (xy 3.302 -1.778) (xy 0.762 -1.778)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
 						(xy 0.762 0.508) (xy 0.762 -0.508)
 					)
 					(stroke
@@ -2397,6 +2385,30 @@
 						(type none)
 					)
 				)
+				(polyline
+					(pts
+						(xy 0.762 -1.778) (xy 3.302 -1.778) (xy 3.302 1.778) (xy 0.762 1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.016 0) (xy 2.032 0.381) (xy 2.032 -0.381) (xy 1.016 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
 				(circle
 					(center 1.651 0)
 					(radius 2.794)
@@ -2406,18 +2418,6 @@
 					)
 					(fill
 						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.286 0) (xy 1.27 0.381) (xy 1.27 -0.381) (xy 2.286 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
 					)
 				)
 				(polyline
@@ -2468,7 +2468,7 @@
 				)
 				(polyline
 					(pts
-						(xy 2.794 -0.508) (xy 2.921 -0.381) (xy 3.683 -0.381) (xy 3.81 -0.254)
+						(xy 2.794 0.508) (xy 2.921 0.381) (xy 3.683 0.381) (xy 3.81 0.254)
 					)
 					(stroke
 						(width 0)
@@ -2480,7 +2480,7 @@
 				)
 				(polyline
 					(pts
-						(xy 3.302 -0.381) (xy 2.921 0.254) (xy 3.683 0.254) (xy 3.302 -0.381)
+						(xy 3.302 0.381) (xy 2.921 -0.254) (xy 3.683 -0.254) (xy 3.302 0.381)
 					)
 					(stroke
 						(width 0)
@@ -2491,8 +2491,8 @@
 					)
 				)
 			)
-			(symbol "SiS415DNT_1_1"
-				(pin passive line
+			(symbol "SiS454DN_1_1"
+				(pin input line
 					(at -5.08 0 0)
 					(length 2.54)
 					(name "G"
@@ -10401,8 +10401,9 @@
 		)
 	)
 	(symbol
-		(lib_id "Transistor_FET:SiS415DNT")
-		(at 205.74 57.15 270)
+		(lib_id "Transistor_FET:SiS454DN")
+		(at 205.74 57.15 90)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10410,7 +10411,7 @@
 		(dnp no)
 		(uuid "6c61fe14-4c22-4d18-bdee-37216f028d4d")
 		(property "Reference" "Q5"
-			(at 202.692 62.484 90)
+			(at 208.788 62.484 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10427,7 +10428,7 @@
 			)
 		)
 		(property "Footprint" "Package_SO:Vishay_PowerPAK_1212-8_Single"
-			(at 208.28 62.23 0)
+			(at 203.2 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11929,8 +11930,9 @@
 		)
 	)
 	(symbol
-		(lib_id "Transistor_FET:SiS415DNT")
-		(at 181.61 57.15 270)
+		(lib_id "Transistor_FET:SiS454DN")
+		(at 181.61 57.15 90)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11938,7 +11940,7 @@
 		(dnp no)
 		(uuid "9b49e567-2307-40b6-a9d0-92196111aa88")
 		(property "Reference" "Q3"
-			(at 185.166 62.23 90)
+			(at 178.054 62.23 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11955,7 +11957,7 @@
 			)
 		)
 		(property "Footprint" "Package_SO:Vishay_PowerPAK_1212-8_Single"
-			(at 184.15 62.23 0)
+			(at 179.07 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12406,9 +12408,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Transistor_FET:SiS415DNT")
-		(at 193.04 57.15 90)
-		(mirror x)
+		(lib_id "Transistor_FET:SiS454DN")
+		(at 193.04 57.15 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12416,7 +12417,7 @@
 		(dnp no)
 		(uuid "a33387b2-9f2a-4fcd-8049-9fa77cf13337")
 		(property "Reference" "Q4"
-			(at 196.596 62.23 90)
+			(at 189.484 62.23 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12433,7 +12434,7 @@
 			)
 		)
 		(property "Footprint" "Package_SO:Vishay_PowerPAK_1212-8_Single"
-			(at 190.5 62.23 0)
+			(at 195.58 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13363,9 +13364,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Transistor_FET:SiS415DNT")
-		(at 217.17 57.15 90)
-		(mirror x)
+		(lib_id "Transistor_FET:SiS454DN")
+		(at 217.17 57.15 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13373,7 +13373,7 @@
 		(dnp no)
 		(uuid "c2b5d345-ec3f-4422-985e-315154eb8729")
 		(property "Reference" "Q6"
-			(at 214.122 62.484 90)
+			(at 220.218 62.484 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13390,7 +13390,7 @@
 			)
 		)
 		(property "Footprint" "Package_SO:Vishay_PowerPAK_1212-8_Single"
-			(at 214.63 62.23 0)
+			(at 219.71 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
