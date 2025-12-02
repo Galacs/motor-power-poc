@@ -5359,7 +5359,7 @@
 			(uuid "d4f5d52c-ea9c-4588-ba7d-4b1c9888ad2c")
 		)
 		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/Package_SO.3dshapes/Vishay_PowerPAK_1212-8_Single.step"
+		(model "/home/galacs/glcs-kicad-libraries/3dmodels/GLCS.3dshapes/SIS412DN-T1-GE3.stp"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -6045,7 +6045,7 @@
 			(uuid "68e88c41-5f03-4434-8b2e-be45f1b1d63a")
 		)
 		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/Package_DFN_QFN.3dshapes/Texas_VQFN-HR-12_2x2.5mm_P0.5mm.step"
+		(model "/home/galacs/glcs-kicad-libraries/3dmodels/GLCS.3dshapes/RUX0012A.stp"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -10065,7 +10065,7 @@
 			(uuid "cb3c0e6d-af73-424d-8fb3-414f6bbca654")
 		)
 		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/Package_SO.3dshapes/HTSOP-8-1EP_3.9x4.9mm_Pitch1.27mm.step"
+		(model "${KICAD9_3DMODEL_DIR}/Package_SO.3dshapes/Texas_HTSOP-8-1EP_3.9x4.9mm_P1.27mm_EP2.85x4.9mm_Mask2.4x3.1mm_ThermalVias.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -13471,7 +13471,7 @@
 			(uuid "0955f9c5-fc0d-4fba-9bd3-580ae4d39449")
 		)
 		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/Crystal.3dshapes/Crystal_SMD_2016-4Pin_2.0x1.6mm.step"
+		(model "${KICAD9_3DMODEL_DIR}/Crystal.3dshapes/Crystal_SMD_2520-4Pin_2.5x2.0mm.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -16584,7 +16584,7 @@
 			(uuid "c9fff441-b64b-4e28-a9a1-1d65a92be807")
 		)
 		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/Package_SO.3dshapes/Vishay_PowerPAK_1212-8_Single.step"
+		(model "/home/galacs/glcs-kicad-libraries/3dmodels/GLCS.3dshapes/SIS412DN-T1-GE3.stp"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -19448,7 +19448,7 @@
 			(uuid "8bcc6910-c986-4e57-a4bb-e9f23f47b70d")
 		)
 		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/Package_SO.3dshapes/Vishay_PowerPAK_1212-8_Single.step"
+		(model "/home/galacs/glcs-kicad-libraries/3dmodels/GLCS.3dshapes/SIS412DN-T1-GE3.stp"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -24240,7 +24240,7 @@
 			(uuid "79f983a2-14ea-49e3-bc0f-9255a26dd31e")
 		)
 		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/Package_SO.3dshapes/Vishay_PowerPAK_1212-8_Single.step"
+		(model "/home/galacs/glcs-kicad-libraries/3dmodels/GLCS.3dshapes/SIS412DN-T1-GE3.stp"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -28151,7 +28151,7 @@
 			(uuid "2d9f1470-d079-452b-b0a6-0ce5d81b163e")
 		)
 		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/Connector_USB.3dshapes/USB_C_Receptacle_HRO_TYPE-C-31-M-12.step"
+		(model "${KICAD9_3DMODEL_DIR}/Connector_USB.3dshapes/USB_C_Receptacle_GCT_USB4105-xx-A_16P_TopMnt_Horizontal.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -29012,7 +29012,7 @@
 			(uuid "d8b794de-b2b5-44eb-855a-b8dc996d7093")
 		)
 		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/Package_SO.3dshapes/Vishay_PowerPAK_1212-8_Single.step"
+		(model "/home/galacs/glcs-kicad-libraries/3dmodels/GLCS.3dshapes/SIS412DN-T1-GE3.stp"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -29873,7 +29873,7 @@
 			(uuid "41261666-9fc4-4160-bbcc-a1f291f3a048")
 		)
 		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/Package_SO.3dshapes/Vishay_PowerPAK_1212-8_Single.step"
+		(model "/home/galacs/glcs-kicad-libraries/3dmodels/GLCS.3dshapes/SIS412DN-T1-GE3.stp"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -31285,7 +31285,7 @@
 			(uuid "8a00683a-21a1-4208-b3be-c7d9a3b72c1e")
 		)
 		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/Package_SO.3dshapes/Vishay_PowerPAK_1212-8_Single.step"
+		(model "/home/galacs/glcs-kicad-libraries/3dmodels/GLCS.3dshapes/SIS412DN-T1-GE3.stp"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -32899,7 +32899,7 @@
 			(uuid "97575107-49d5-4af8-b9a7-59d231024515")
 		)
 		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/Package_SO.3dshapes/Vishay_PowerPAK_1212-8_Single.step"
+		(model "/home/galacs/glcs-kicad-libraries/3dmodels/GLCS.3dshapes/SIS412DN-T1-GE3.stp"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -36690,7 +36690,7 @@
 			(uuid "840c9851-5f53-4b82-b9fe-3fc87dee8de5")
 		)
 		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/Package_SO.3dshapes/Vishay_PowerPAK_1212-8_Single.step"
+		(model "/home/galacs/glcs-kicad-libraries/3dmodels/GLCS.3dshapes/SIS412DN-T1-GE3.stp"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -41807,7 +41807,7 @@
 			(uuid "c1a1fe85-0057-4242-b081-75d6a37f7d37")
 		)
 		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/Package_SO.3dshapes/Vishay_PowerPAK_1212-8_Single.step"
+		(model "/home/galacs/glcs-kicad-libraries/3dmodels/GLCS.3dshapes/SIS412DN-T1-GE3.stp"
 			(offset
 				(xyz 0 0 0)
 			)
