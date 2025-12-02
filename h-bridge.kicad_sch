@@ -1615,7 +1615,7 @@
 							)
 						)
 					)
-					(number "26"
+					(number "25"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -6489,7 +6489,7 @@
 		(pin "15"
 			(uuid "2a141410-20df-40da-86d7-5404182d5d75")
 		)
-		(pin "26"
+		(pin "25"
 			(uuid "56f585ec-72cd-40a6-9ad5-abcdb72e10a6")
 		)
 		(pin "7"
