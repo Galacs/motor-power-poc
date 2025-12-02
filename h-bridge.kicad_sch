@@ -883,296 +883,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Device:Q_NMOS"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "Q"
-				(at 5.08 1.27 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "Q_NMOS"
-				(at 5.08 -1.27 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" ""
-				(at 5.08 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "N-MOSFET transistor"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "NMOS N-MOS"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Q_NMOS_0_1"
-				(polyline
-					(pts
-						(xy 0.254 1.905) (xy 0.254 -1.905)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.254 0) (xy -2.54 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 2.286) (xy 0.762 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 0.508) (xy 0.762 -0.508)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 -1.27) (xy 0.762 -2.286)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 -1.778) (xy 3.302 -1.778) (xy 3.302 1.778) (xy 0.762 1.778)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.016 0) (xy 2.032 0.381) (xy 2.032 -0.381) (xy 1.016 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(circle
-					(center 1.651 0)
-					(radius 2.794)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 2.54) (xy 2.54 1.778)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 2.54 1.778)
-					(radius 0.254)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(circle
-					(center 2.54 -1.778)
-					(radius 0.254)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 -2.54) (xy 2.54 0) (xy 0.762 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.921 0.381) (xy 3.683 0.381)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.302 0.381) (xy 2.921 -0.254) (xy 3.683 -0.254) (xy 3.302 0.381)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "Q_NMOS_1_1"
-				(pin input line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name "G"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "G"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 5.08 270)
-					(length 2.54)
-					(name "D"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "D"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 -5.08 90)
-					(length 2.54)
-					(name "S"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "S"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Device:R"
 			(pin_numbers
 				(hide yes)
@@ -2127,6 +1837,342 @@
 						)
 					)
 					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Transistor_FET:SiS415DNT"
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "Q"
+				(at 5.08 1.905 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "SiS415DNT"
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Package_SO:Vishay_PowerPAK_1212-8_Single"
+				(at 5.08 -1.905 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.vishay.com/docs/63684/sis415dnt.pdf"
+				(at 5.08 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Description" "-35A Id, -20V Vds, P-Channel MOSFET, PowerPAK 1212-8 Single"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "P-Channel MOSFET"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Vishay*PowerPAK*1212*Single*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "SiS415DNT_0_1"
+				(polyline
+					(pts
+						(xy 0.254 1.905) (xy 0.254 -1.905)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.254 0) (xy -2.54 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 2.286) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 1.778) (xy 3.302 1.778) (xy 3.302 -1.778) (xy 0.762 -1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 0.508) (xy 0.762 -0.508)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 -1.27) (xy 0.762 -2.286)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 1.651 0)
+					(radius 2.794)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.286 0) (xy 1.27 0.381) (xy 1.27 -0.381) (xy 2.286 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 2.54) (xy 2.54 1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.54 1.778)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 2.54 -1.778)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -2.54) (xy 2.54 0) (xy 0.762 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.794 -0.508) (xy 2.921 -0.381) (xy 3.683 -0.381) (xy 3.81 -0.254)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.302 -0.381) (xy 2.921 0.254) (xy 3.683 0.254) (xy 3.302 -0.381)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "SiS415DNT_1_1"
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "G"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 5.08 270)
+					(length 2.54)
+					(name "D"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 -5.08 90)
+					(length 2.54)
+					(name "S"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 -5.08 90)
+					(length 2.54)
+					(hide yes)
+					(name "S"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 -5.08 90)
+					(length 2.54)
+					(hide yes)
+					(name "S"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4372,8 +4418,9 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:Q_NMOS")
+		(lib_id "Transistor_FET:SiS415DNT")
 		(at 181.61 68.58 0)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4381,7 +4428,7 @@
 		(dnp no)
 		(uuid "2549fa0d-1bf1-4b8f-ba45-1db8008144d0")
 		(property "Reference" "Q7"
-			(at 186.436 71.12 0)
+			(at 186.436 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4399,7 +4446,7 @@
 			)
 		)
 		(property "Footprint" "Package_SO:Vishay_PowerPAK_1212-8_Single"
-			(at 186.69 66.04 0)
+			(at 186.69 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4461,14 +4508,20 @@
 				(hide yes)
 			)
 		)
-		(pin "S"
+		(pin "3"
 			(uuid "13f105da-07b9-4cbe-aace-d8be15c6b161")
 		)
-		(pin "G"
+		(pin "2"
 			(uuid "39608082-2221-4a40-92a7-c9aebeaa9730")
 		)
-		(pin "D"
+		(pin "1"
 			(uuid "dafa058d-1d3c-4302-9bf3-3e10318b0180")
+		)
+		(pin "4"
+			(uuid "d9d3dda1-e62a-4e83-88fe-7a9caff1c354")
+		)
+		(pin "5"
+			(uuid "015e774a-92e9-4b15-951e-f6be4a30088d")
 		)
 		(instances
 			(project "motor-power-poc"
@@ -5555,9 +5608,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:Q_NMOS")
+		(lib_id "Transistor_FET:SiS415DNT")
 		(at 181.61 93.98 0)
-		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5565,7 +5617,7 @@
 		(dnp no)
 		(uuid "a6d1f6ba-2b0f-4d8c-b860-8e90598344ab")
 		(property "Reference" "Q9"
-			(at 186.436 96.5202 0)
+			(at 186.436 91.4398 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5583,7 +5635,7 @@
 			)
 		)
 		(property "Footprint" "Package_SO:Vishay_PowerPAK_1212-8_Single"
-			(at 186.69 96.52 0)
+			(at 186.69 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5645,14 +5697,20 @@
 				(hide yes)
 			)
 		)
-		(pin "S"
+		(pin "4"
 			(uuid "56a641a7-05a3-413d-b3be-8af2f3f510f3")
 		)
-		(pin "G"
+		(pin "3"
 			(uuid "970532fd-1142-48f2-b06b-d3ca43987da4")
 		)
-		(pin "D"
+		(pin "2"
 			(uuid "561991c1-b5d4-4547-a004-e8511b7b4626")
+		)
+		(pin "5"
+			(uuid "f1f50e66-f2e5-4709-8541-6802c8bdfb52")
+		)
+		(pin "1"
+			(uuid "a7d0e58e-711f-4c2d-84fc-4b5032e86497")
 		)
 		(instances
 			(project "motor-power-poc"
@@ -5835,9 +5893,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:Q_NMOS")
+		(lib_id "Transistor_FET:SiS415DNT")
 		(at 181.61 106.68 0)
-		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5845,7 +5902,7 @@
 		(dnp no)
 		(uuid "d5cb0ca3-f44d-4f4c-8f10-be6a0bfb1f57")
 		(property "Reference" "Q10"
-			(at 186.436 109.2202 0)
+			(at 186.436 104.1398 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5863,7 +5920,7 @@
 			)
 		)
 		(property "Footprint" "Package_SO:Vishay_PowerPAK_1212-8_Single"
-			(at 186.69 109.22 0)
+			(at 186.69 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5925,14 +5982,20 @@
 				(hide yes)
 			)
 		)
-		(pin "S"
+		(pin "4"
 			(uuid "d96ad734-1333-4ae5-a8a1-a9cb796d1198")
 		)
-		(pin "G"
+		(pin "3"
 			(uuid "c9799132-0bd0-40ce-b357-670254987f0c")
 		)
-		(pin "D"
+		(pin "5"
 			(uuid "2004dfc4-2898-48b5-9e7c-17247a2d9788")
+		)
+		(pin "1"
+			(uuid "139e1e4e-503b-4a21-be21-1315f8cf474e")
+		)
+		(pin "2"
+			(uuid "e4404dae-a7c4-4ff9-9b6b-432f2d4299c2")
 		)
 		(instances
 			(project "motor-power-poc"
@@ -6009,8 +6072,9 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:Q_NMOS")
+		(lib_id "Transistor_FET:SiS415DNT")
 		(at 181.61 81.28 0)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6018,7 +6082,7 @@
 		(dnp no)
 		(uuid "eacbb8fb-7870-47d1-9108-7873269a9d6f")
 		(property "Reference" "Q8"
-			(at 186.436 83.82 0)
+			(at 186.436 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6036,7 +6100,7 @@
 			)
 		)
 		(property "Footprint" "Package_SO:Vishay_PowerPAK_1212-8_Single"
-			(at 186.69 78.74 0)
+			(at 186.69 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6098,14 +6162,20 @@
 				(hide yes)
 			)
 		)
-		(pin "S"
+		(pin "4"
 			(uuid "cf6e6c1f-25b3-484e-bd60-1ce3fe300739")
 		)
-		(pin "G"
+		(pin "5"
 			(uuid "35710524-e742-4f87-8245-a2a6f3f7db0d")
 		)
-		(pin "D"
+		(pin "1"
 			(uuid "8e6fd629-386e-4359-99bb-f66c0157e7a5")
+		)
+		(pin "2"
+			(uuid "ec9f47c3-7352-4fc9-8819-ed328067aa9d")
+		)
+		(pin "3"
+			(uuid "c2069d70-f594-4f73-bf2e-931c740cafde")
 		)
 		(instances
 			(project "motor-power-poc"
