@@ -2012,14 +2012,14 @@
 				(pin bidirectional line
 					(at -33.02 0 0)
 					(length 2.54)
-					(name "MTDI/JTAG/GPIO41"
+					(name "MTMS/JTAG/GPIO42"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "47"
+					(number "48"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2030,14 +2030,14 @@
 				(pin bidirectional line
 					(at -33.02 -2.54 0)
 					(length 2.54)
-					(name "MTMS/JTAG/GPIO42"
+					(name "MTDI/JTAG/GPIO41"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "48"
+					(number "47"
 						(effects
 							(font
 								(size 1.27 1.27)
