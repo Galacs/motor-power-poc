@@ -3763,7 +3763,7 @@
 		(uuid "08c83fd9-af18-4a74-93df-5a5719075e14")
 	)
 	(junction
-		(at 172.72 38.1)
+		(at 181.61 38.1)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "0ae6267b-f082-4be6-b221-1b79b03f6187")
@@ -3775,7 +3775,7 @@
 		(uuid "10887cd2-ffac-490c-aa1d-39bcbc68ab0e")
 	)
 	(junction
-		(at 153.67 31.75)
+		(at 160.02 31.75)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "12598c1e-ebde-4c98-ae44-fdc1cd8a0ac3")
@@ -3785,12 +3785,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "1c16ed2d-482c-49af-8616-f061b44b0522")
-	)
-	(junction
-		(at 207.01 39.37)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "2b245cb8-4562-46ba-861c-5efddf89e4d5")
 	)
 	(junction
 		(at 173.99 31.75)
@@ -3859,7 +3853,7 @@
 		(uuid "61ff02f5-f258-45d4-82ea-603aa8d208d9")
 	)
 	(junction
-		(at 153.67 21.59)
+		(at 160.02 21.59)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "62277bab-788b-4895-9fab-7ad62d1a63ec")
@@ -3877,12 +3871,6 @@
 		(uuid "6705015d-c923-4a84-be8f-590545c5197d")
 	)
 	(junction
-		(at 163.83 31.75)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "76d257b8-900b-4410-ba72-42a52ba29620")
-	)
-	(junction
 		(at 60.96 144.78)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3895,22 +3883,10 @@
 		(uuid "823d08e6-1aee-4d2d-8c6a-359970d18598")
 	)
 	(junction
-		(at 163.83 21.59)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "83024e25-4608-4493-9eb3-29674e75a8fc")
-	)
-	(junction
 		(at 189.23 21.59)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8d4286b9-3bee-418b-8b65-f7ab4615ddd5")
-	)
-	(junction
-		(at 182.88 38.1)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "93997acb-9938-4d15-ba00-ab701fa5f383")
 	)
 	(junction
 		(at 20.32 130.81)
@@ -3931,22 +3907,10 @@
 		(uuid "cd719e8e-4955-41f7-94da-658be0d5d6da")
 	)
 	(junction
-		(at 219.71 49.53)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "da3b7b22-3476-4f4f-add8-9547787fc0a7")
-	)
-	(junction
 		(at 34.29 130.81)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "dfa97874-cb5c-471a-a03b-2dd337dd3767")
-	)
-	(junction
-		(at 172.72 48.26)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e917f053-eea1-4ffa-b418-f0700cd39656")
 	)
 	(junction
 		(at 34.29 158.75)
@@ -4070,7 +4034,7 @@
 	)
 	(wire
 		(pts
-			(xy 153.67 31.75) (xy 153.67 33.02)
+			(xy 160.02 31.75) (xy 160.02 33.02)
 		)
 		(stroke
 			(width 0)
@@ -4270,16 +4234,6 @@
 	)
 	(wire
 		(pts
-			(xy 163.83 31.75) (xy 153.67 31.75)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2132613f-413f-438c-979f-1b40b5fa239a")
-	)
-	(wire
-		(pts
 			(xy 60.96 130.81) (xy 60.96 144.78)
 		)
 		(stroke
@@ -4340,16 +4294,6 @@
 	)
 	(wire
 		(pts
-			(xy 172.72 48.26) (xy 172.72 46.99)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2d29d635-a987-492a-9744-0a4bfc9e68e6")
-	)
-	(wire
-		(pts
 			(xy 232.41 59.69) (xy 246.38 59.69)
 		)
 		(stroke
@@ -4387,16 +4331,6 @@
 			(type default)
 		)
 		(uuid "361096dd-5b95-4cc7-a0a9-fa993c5b5db3")
-	)
-	(wire
-		(pts
-			(xy 153.67 21.59) (xy 163.83 21.59)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3748933d-6459-42a4-aa58-47cb2b812efe")
 	)
 	(wire
 		(pts
@@ -4460,16 +4394,6 @@
 	)
 	(wire
 		(pts
-			(xy 182.88 38.1) (xy 182.88 39.37)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3c1fecb3-8a63-44a0-a6ed-babbfb28a465")
-	)
-	(wire
-		(pts
 			(xy 135.89 63.5) (xy 135.89 64.77)
 		)
 		(stroke
@@ -4500,23 +4424,13 @@
 	)
 	(wire
 		(pts
-			(xy 172.72 38.1) (xy 182.88 38.1)
+			(xy 181.61 38.1) (xy 191.77 38.1)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "49930f0d-bcf8-402b-8663-644e9e40dba0")
-	)
-	(wire
-		(pts
-			(xy 182.88 48.26) (xy 172.72 48.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4ceaceb2-3460-444a-bbc4-b5d5e4d9bdeb")
 	)
 	(wire
 		(pts
@@ -4580,7 +4494,7 @@
 	)
 	(wire
 		(pts
-			(xy 219.71 48.26) (xy 219.71 49.53)
+			(xy 219.71 48.26) (xy 219.71 50.8)
 		)
 		(stroke
 			(width 0)
@@ -4700,7 +4614,7 @@
 	)
 	(wire
 		(pts
-			(xy 153.67 21.59) (xy 153.67 22.86)
+			(xy 160.02 21.59) (xy 160.02 22.86)
 		)
 		(stroke
 			(width 0)
@@ -4750,23 +4664,13 @@
 	)
 	(wire
 		(pts
-			(xy 219.71 39.37) (xy 207.01 39.37)
+			(xy 201.93 39.37) (xy 219.71 39.37)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "6cd30b16-5cad-4b4b-b594-69cdd943bb12")
-	)
-	(wire
-		(pts
-			(xy 207.01 39.37) (xy 201.93 39.37)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6dae2941-22cd-4fdb-a439-1c043f8e2d30")
 	)
 	(wire
 		(pts
@@ -4840,7 +4744,7 @@
 	)
 	(wire
 		(pts
-			(xy 163.83 38.1) (xy 172.72 38.1)
+			(xy 171.45 38.1) (xy 181.61 38.1)
 		)
 		(stroke
 			(width 0)
@@ -4980,16 +4884,6 @@
 	)
 	(wire
 		(pts
-			(xy 182.88 46.99) (xy 182.88 48.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9968940c-af65-402e-abfa-5e7d6e42412d")
-	)
-	(wire
-		(pts
 			(xy 232.41 87.63) (xy 234.95 87.63)
 		)
 		(stroke
@@ -5000,7 +4894,7 @@
 	)
 	(wire
 		(pts
-			(xy 172.72 48.26) (xy 172.72 49.53)
+			(xy 181.61 46.99) (xy 181.61 49.53)
 		)
 		(stroke
 			(width 0)
@@ -5047,16 +4941,6 @@
 			(type default)
 		)
 		(uuid "a21a9674-aa20-4089-a7f6-df327ad80083")
-	)
-	(wire
-		(pts
-			(xy 207.01 48.26) (xy 207.01 49.53)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a30565c0-9b86-49ba-aa0b-4841542c0b49")
 	)
 	(wire
 		(pts
@@ -5107,16 +4991,6 @@
 			(type default)
 		)
 		(uuid "a7bfed7c-a1eb-4a73-b3eb-52748dbbf3af")
-	)
-	(wire
-		(pts
-			(xy 163.83 21.59) (xy 163.83 22.86)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a84902e1-fdd0-441a-9017-4247572a79fb")
 	)
 	(wire
 		(pts
@@ -5240,7 +5114,7 @@
 	)
 	(wire
 		(pts
-			(xy 153.67 20.32) (xy 153.67 21.59)
+			(xy 160.02 20.32) (xy 160.02 21.59)
 		)
 		(stroke
 			(width 0)
@@ -5360,16 +5234,6 @@
 	)
 	(wire
 		(pts
-			(xy 163.83 30.48) (xy 163.83 31.75)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cb9f99f3-52d4-455d-97d7-cedf956dc456")
-	)
-	(wire
-		(pts
 			(xy 20.32 130.81) (xy 20.32 144.78)
 		)
 		(stroke
@@ -5440,33 +5304,13 @@
 	)
 	(wire
 		(pts
-			(xy 219.71 49.53) (xy 219.71 50.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d294af80-b746-4bd0-b0b6-1b16eb6f4eb5")
-	)
-	(wire
-		(pts
-			(xy 163.83 21.59) (xy 173.99 21.59)
+			(xy 160.02 21.59) (xy 173.99 21.59)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "d29ea2b2-eaa3-4948-9916-86f81ad9eada")
-	)
-	(wire
-		(pts
-			(xy 219.71 49.53) (xy 207.01 49.53)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d39a00a0-35d4-4163-bc61-f75864f28b97")
 	)
 	(wire
 		(pts
@@ -5550,7 +5394,7 @@
 	)
 	(wire
 		(pts
-			(xy 172.72 39.37) (xy 172.72 38.1)
+			(xy 181.61 39.37) (xy 181.61 38.1)
 		)
 		(stroke
 			(width 0)
@@ -5560,7 +5404,7 @@
 	)
 	(wire
 		(pts
-			(xy 153.67 31.75) (xy 153.67 30.48)
+			(xy 160.02 31.75) (xy 160.02 30.48)
 		)
 		(stroke
 			(width 0)
@@ -5610,16 +5454,6 @@
 	)
 	(wire
 		(pts
-			(xy 182.88 38.1) (xy 191.77 38.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f6e96f07-899e-45ec-bc42-e64111e08a30")
-	)
-	(wire
-		(pts
 			(xy 59.69 130.81) (xy 60.96 130.81)
 		)
 		(stroke
@@ -5640,17 +5474,7 @@
 	)
 	(wire
 		(pts
-			(xy 207.01 39.37) (xy 207.01 40.64)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fa08cc7e-885c-42ba-b4d3-6918d7434cd8")
-	)
-	(wire
-		(pts
-			(xy 173.99 31.75) (xy 163.83 31.75)
+			(xy 160.02 31.75) (xy 173.99 31.75)
 		)
 		(stroke
 			(width 0)
@@ -5909,7 +5733,7 @@
 		(uuid "f544f704-ea3b-4efd-b845-1c609fcb2a71")
 	)
 	(label "VDD_SPI"
-		(at 163.83 38.1 0)
+		(at 171.45 38.1 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8759,217 +8583,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 207.01 44.45 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "6bda2b9e-0a5c-4846-b2a1-0ec9c09fedb5")
-		(property "Reference" "C18"
-			(at 210.82 43.1799 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10n"
-			(at 210.82 45.7199 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 207.9752 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 207.01 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 207.01 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Samsung Electro-Mechanics "
-			(at 207.01 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer Part Number" "CL05B103KB5NNNC"
-			(at 207.01 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Basic" "Y"
-			(at 207.01 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLCPCB Part #" "C15195"
-			(at 207.01 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "9b04fb79-9e2a-4767-8742-ac7405eb19b0")
-		)
-		(pin "2"
-			(uuid "b85161d2-be4a-4e6d-a2d2-395bf8ef6158")
-		)
-		(instances
-			(project "motor-power-poc"
-				(path "/a1dc4c9e-7b20-4b66-a693-9133bc644c6b"
-					(reference "C18")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 182.88 43.18 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "6bf3a018-aa54-4790-b836-412d6f8825f5")
-		(property "Reference" "C14"
-			(at 186.436 42.164 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "0u1"
-			(at 186.436 44.704 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 183.8452 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 182.88 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 182.88 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Samsung Electro-Mechanics "
-			(at 182.88 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer Part Number" "CL05B104KB54PNC"
-			(at 182.88 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Basic" "Y"
-			(at 182.88 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLCPCB Part #" "C307331"
-			(at 182.88 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "f865b11c-62dd-4290-bf50-f7f8b3bad738")
-		)
-		(pin "2"
-			(uuid "9e291f2c-bda5-4ccb-b7a3-e2cbe3f9e532")
-		)
-		(instances
-			(project "motor-power-poc"
-				(path "/a1dc4c9e-7b20-4b66-a693-9133bc644c6b"
-					(reference "C14")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C_Small")
 		(at 34.29 161.29 0)
 		(mirror y)
@@ -9208,7 +8821,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 172.72 49.53 0)
+		(at 181.61 49.53 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9216,7 +8829,7 @@
 		(dnp no)
 		(uuid "729291b5-7ba5-47aa-9fdf-14994accafa6")
 		(property "Reference" "#PWR021"
-			(at 172.72 55.88 0)
+			(at 181.61 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9225,7 +8838,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 174.752 51.054 0)
+			(at 183.642 51.054 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9234,7 +8847,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 172.72 49.53 0)
+			(at 181.61 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9243,7 +8856,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 172.72 49.53 0)
+			(at 181.61 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9252,7 +8865,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 172.72 49.53 0)
+			(at 181.61 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9723,7 +9336,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 153.67 20.32 0)
+		(at 160.02 20.32 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9732,7 +9345,7 @@
 		(fields_autoplaced yes)
 		(uuid "8d78ad70-e801-4d95-9b6d-e223b013f770")
 		(property "Reference" "#PWR017"
-			(at 153.67 24.13 0)
+			(at 160.02 24.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9741,7 +9354,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 153.67 15.24 0)
+			(at 160.02 15.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9749,7 +9362,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 153.67 20.32 0)
+			(at 160.02 20.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9758,7 +9371,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 153.67 20.32 0)
+			(at 160.02 20.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9767,7 +9380,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 153.67 20.32 0)
+			(at 160.02 20.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9999,7 +9612,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 153.67 33.02 0)
+		(at 160.02 33.02 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10007,7 +9620,7 @@
 		(dnp no)
 		(uuid "93607b44-d194-4ee8-a64e-5c46a5c02dff")
 		(property "Reference" "#PWR018"
-			(at 153.67 39.37 0)
+			(at 160.02 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10016,7 +9629,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 154.94 37.592 0)
+			(at 161.29 37.592 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10025,7 +9638,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 153.67 33.02 0)
+			(at 160.02 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10034,7 +9647,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 153.67 33.02 0)
+			(at 160.02 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10043,7 +9656,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 153.67 33.02 0)
+			(at 160.02 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10882,7 +10495,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 153.67 26.67 0)
+		(at 160.02 26.67 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10890,7 +10503,7 @@
 		(dnp no)
 		(uuid "a30ae1ff-a4bc-4544-b360-102467365ced")
 		(property "Reference" "C8"
-			(at 157.226 25.4 0)
+			(at 163.576 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10899,7 +10512,7 @@
 			)
 		)
 		(property "Value" "10u"
-			(at 157.226 27.94 0)
+			(at 163.576 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10908,7 +10521,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 154.6352 30.48 0)
+			(at 160.9852 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10917,7 +10530,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 153.67 26.67 0)
+			(at 160.02 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10926,7 +10539,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 153.67 26.67 0)
+			(at 160.02 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10935,7 +10548,7 @@
 			)
 		)
 		(property "Manufacturer" "Samsung Electro-Mechanics "
-			(at 153.67 26.67 0)
+			(at 160.02 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10944,7 +10557,7 @@
 			)
 		)
 		(property "Manufacturer Part Number" "CL05A106MQ5NUNC"
-			(at 153.67 26.67 0)
+			(at 160.02 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10953,7 +10566,7 @@
 			)
 		)
 		(property "Basic" "Y"
-			(at 153.67 26.67 0)
+			(at 160.02 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10962,7 +10575,7 @@
 			)
 		)
 		(property "JLCPCB Part #" "C15525"
-			(at 153.67 26.67 0)
+			(at 160.02 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11458,7 +11071,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 172.72 43.18 0)
+		(at 181.61 43.18 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11466,7 +11079,7 @@
 		(dnp no)
 		(uuid "b598de32-90c0-4d6f-ae2a-0d9265dc9ac3")
 		(property "Reference" "C12"
-			(at 176.276 41.91 0)
+			(at 185.166 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11475,7 +11088,7 @@
 			)
 		)
 		(property "Value" "1u"
-			(at 176.276 44.45 0)
+			(at 185.166 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11484,7 +11097,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 173.6852 46.99 0)
+			(at 182.5752 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11493,7 +11106,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 172.72 43.18 0)
+			(at 181.61 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11502,7 +11115,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 172.72 43.18 0)
+			(at 181.61 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11511,7 +11124,7 @@
 			)
 		)
 		(property "Manufacturer" "Samsung Electro-Mechanics "
-			(at 172.72 43.18 0)
+			(at 181.61 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11520,7 +11133,7 @@
 			)
 		)
 		(property "Manufacturer Part Number" "CL05A105KA5NQNC"
-			(at 172.72 43.18 0)
+			(at 181.61 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11529,7 +11142,7 @@
 			)
 		)
 		(property "Basic" "Y"
-			(at 172.72 43.18 0)
+			(at 181.61 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11538,7 +11151,7 @@
 			)
 		)
 		(property "JLCPCB Part #" "C52923"
-			(at 172.72 43.18 0)
+			(at 181.61 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12915,112 +12528,6 @@
 			(project "motor-power-poc"
 				(path "/a1dc4c9e-7b20-4b66-a693-9133bc644c6b"
 					(reference "U4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 163.83 26.67 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e9b8c769-db99-49c2-b239-7d692a764be0")
-		(property "Reference" "C11"
-			(at 167.64 25.3999 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "1u"
-			(at 167.64 27.9399 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 164.7952 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 163.83 26.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 163.83 26.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Samsung Electro-Mechanics "
-			(at 163.83 26.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer Part Number" "CL05A105KA5NQNC"
-			(at 163.83 26.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Basic" "Y"
-			(at 163.83 26.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLCPCB Part #" "C52923"
-			(at 163.83 26.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "da1ee118-7df3-4280-b087-85d682708006")
-		)
-		(pin "2"
-			(uuid "08df8826-efd9-47aa-9ea7-ca573526cf8b")
-		)
-		(instances
-			(project "motor-power-poc"
-				(path "/a1dc4c9e-7b20-4b66-a693-9133bc644c6b"
-					(reference "C11")
 					(unit 1)
 				)
 			)
