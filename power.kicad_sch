@@ -11439,7 +11439,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Part #" "C23159"
+		(property "JLCPCB Part #" "C25804"
 			(at 262.89 110.49 0)
 			(effects
 				(font
@@ -11457,7 +11457,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" "0603WAF4301T5E"
+		(property "Manufacturer Part Number" "0603WAF1002T5E"
 			(at 262.89 110.49 0)
 			(effects
 				(font
@@ -13139,7 +13139,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Part #" "C20638"
+		(property "JLCPCB Part #" "C17724"
 			(at 256.54 105.41 90)
 			(effects
 				(font
@@ -13157,7 +13157,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" "0805W8F750JT5E"
+		(property "Manufacturer Part Number" "0805W8F510KT5E"
 			(at 256.54 105.41 90)
 			(effects
 				(font
@@ -15570,7 +15570,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Part #" "C22764"
+		(property "JLCPCB Part #" "C23184"
 			(at 262.89 120.65 0)
 			(effects
 				(font
@@ -15588,7 +15588,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" "0603WAF1101T5E"
+		(property "Manufacturer Part Number" "0603WAF4992T5E"
 			(at 262.89 120.65 0)
 			(effects
 				(font
