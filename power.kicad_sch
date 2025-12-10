@@ -118,7 +118,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Connector_Generic:Conn_02x02_Odd_Even"
+		(symbol "Connector_Generic:Conn_02x03_Odd_Even"
 			(pin_names
 				(offset 1.016)
 				(hide yes)
@@ -126,23 +126,24 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "J"
-				(at 1.27 2.54 0)
+			(property "Reference" "J4"
+				(at 1.524 -5.08 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Value" "Conn_02x02_Odd_Even"
-				(at 1.27 -5.08 0)
+			(property "Value" "Conn_02x02_Counter_Clockwise"
+				(at 1.27 3.81 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(hide yes)
 				)
 			)
-			(property "Footprint" ""
+			(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_2x02_P2.54mm_Vertical"
 				(at 0 0 0)
 				(effects
 					(font
@@ -160,7 +161,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Generic connector, double row, 02x02, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(property "Description" "Generic connector, double row, 02x03, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"
 				(at 0 0 0)
 				(effects
 					(font
@@ -187,9 +188,9 @@
 					(hide yes)
 				)
 			)
-			(symbol "Conn_02x02_Odd_Even_1_1"
+			(symbol "Conn_02x03_Odd_Even_1_1"
 				(rectangle
-					(start -1.27 1.27)
+					(start -1.27 6.35)
 					(end 3.81 -3.81)
 					(stroke
 						(width 0.254)
@@ -213,6 +214,28 @@
 				(rectangle
 					(start -1.27 -2.413)
 					(end 0 -2.667)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 3.81 4.953)
+					(end 2.54 5.207)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 3.81 2.667)
+					(end 2.54 2.413)
 					(stroke
 						(width 0.1524)
 						(type default)
@@ -246,24 +269,6 @@
 				(pin passive line
 					(at -5.08 0 0)
 					(length 3.81)
-					(name "Pin_1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 -2.54 0)
-					(length 3.81)
 					(name "Pin_3"
 						(effects
 							(font
@@ -280,7 +285,43 @@
 					)
 				)
 				(pin passive line
-					(at 7.62 0 180)
+					(at -5.08 -2.54 0)
+					(length 3.81)
+					(name "Pin_4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 5.08 180)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 2.54 180)
 					(length 3.81)
 					(name "Pin_2"
 						(effects
@@ -298,16 +339,34 @@
 					)
 				)
 				(pin passive line
-					(at 7.62 -2.54 180)
+					(at 7.62 0 180)
 					(length 3.81)
-					(name "Pin_4"
+					(name "Pin_6"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "4"
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 -2.54 180)
+					(length 3.81)
+					(name "Pin_5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3591,7 +3650,7 @@
 	)
 	(rectangle
 		(start 174.752 29.464)
-		(end 225.552 65.024)
+		(end 236.22 65.024)
 		(stroke
 			(width 0)
 			(type dash)
@@ -3760,6 +3819,12 @@
 		(uuid "03f78dd2-10d3-44e9-a90a-e39a6cdc6253")
 	)
 	(junction
+		(at 224.79 39.37)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "05410b79-a578-41b1-b4c8-6f3f46103aa5")
+	)
+	(junction
 		(at 172.72 96.52)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3898,7 +3963,7 @@
 		(uuid "82074a5e-5a20-4937-89ea-556bc795c196")
 	)
 	(junction
-		(at 222.25 44.45)
+		(at 232.41 44.45)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "855b9053-f825-4b04-b944-0125065ad1ba")
@@ -4405,6 +4470,16 @@
 	)
 	(wire
 		(pts
+			(xy 223.52 46.99) (xy 232.41 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1b7e08d2-7ebf-4f24-ba16-36a09aa39ef2")
+	)
+	(wire
+		(pts
 			(xy 132.08 45.72) (xy 132.08 46.99)
 		)
 		(stroke
@@ -4455,6 +4530,16 @@
 	)
 	(wire
 		(pts
+			(xy 224.79 41.91) (xy 224.79 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "20c0ab69-4e2f-497c-a939-b9397f50b9ad")
+	)
+	(wire
+		(pts
 			(xy 195.58 33.02) (xy 203.2 33.02)
 		)
 		(stroke
@@ -4495,7 +4580,7 @@
 	)
 	(wire
 		(pts
-			(xy 208.28 44.45) (xy 203.2 44.45)
+			(xy 210.82 44.45) (xy 203.2 44.45)
 		)
 		(stroke
 			(width 0)
@@ -4645,6 +4730,16 @@
 	)
 	(wire
 		(pts
+			(xy 224.79 39.37) (xy 223.52 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "316c2946-b921-4a5d-80ec-9358c8452cf6")
+	)
+	(wire
+		(pts
 			(xy 181.61 93.98) (xy 182.88 93.98)
 		)
 		(stroke
@@ -4685,7 +4780,17 @@
 	)
 	(wire
 		(pts
-			(xy 222.25 46.99) (xy 222.25 44.45)
+			(xy 223.52 44.45) (xy 232.41 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3b21ad2e-8cec-4698-9345-3318d0e40cb7")
+	)
+	(wire
+		(pts
+			(xy 232.41 46.99) (xy 232.41 44.45)
 		)
 		(stroke
 			(width 0)
@@ -4782,6 +4887,16 @@
 			(type default)
 		)
 		(uuid "47660869-1b02-44aa-9660-d08d9a9a3a9d")
+	)
+	(wire
+		(pts
+			(xy 223.52 35.56) (xy 224.79 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "496b61ae-008a-40d2-82e2-aea6b65830a6")
 	)
 	(wire
 		(pts
@@ -4995,6 +5110,16 @@
 	)
 	(wire
 		(pts
+			(xy 223.52 41.91) (xy 224.79 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "643c980a-dcfa-4eca-9667-3b2ec1e7a43b")
+	)
+	(wire
+		(pts
 			(xy 133.35 40.64) (xy 132.08 40.64)
 		)
 		(stroke
@@ -5205,6 +5330,16 @@
 	)
 	(wire
 		(pts
+			(xy 224.79 35.56) (xy 224.79 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7e8d273e-49ee-4d2c-ad4f-8b4ad1af9f8d")
+	)
+	(wire
+		(pts
 			(xy 149.86 36.83) (xy 149.86 35.56)
 		)
 		(stroke
@@ -5395,16 +5530,6 @@
 	)
 	(wire
 		(pts
-			(xy 220.98 46.99) (xy 222.25 46.99)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8ace16f3-bf2c-466d-8c6c-ac5f5a2cc58a")
-	)
-	(wire
-		(pts
 			(xy 199.39 59.69) (xy 200.66 59.69)
 		)
 		(stroke
@@ -5462,16 +5587,6 @@
 			(type default)
 		)
 		(uuid "93f6df10-a1fd-464e-9a88-15530cba7037")
-	)
-	(wire
-		(pts
-			(xy 220.98 44.45) (xy 222.25 44.45)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "98414005-e706-4173-abfb-e90e77cbdc86")
 	)
 	(wire
 		(pts
@@ -5675,7 +5790,7 @@
 	)
 	(wire
 		(pts
-			(xy 222.25 43.18) (xy 222.25 44.45)
+			(xy 232.41 43.18) (xy 232.41 44.45)
 		)
 		(stroke
 			(width 0)
@@ -6005,7 +6120,7 @@
 	)
 	(wire
 		(pts
-			(xy 222.25 34.29) (xy 222.25 35.56)
+			(xy 232.41 34.29) (xy 232.41 35.56)
 		)
 		(stroke
 			(width 0)
@@ -6075,7 +6190,7 @@
 	)
 	(wire
 		(pts
-			(xy 205.74 46.99) (xy 208.28 46.99)
+			(xy 205.74 46.99) (xy 210.82 46.99)
 		)
 		(stroke
 			(width 0)
@@ -6142,6 +6257,16 @@
 			(type default)
 		)
 		(uuid "ea1a2692-1dfb-48be-83b5-478bd2c72b1b")
+	)
+	(wire
+		(pts
+			(xy 214.63 35.56) (xy 215.9 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eb50a3aa-3a62-41aa-8b0d-abbfe5f65107")
 	)
 	(wire
 		(pts
@@ -6479,6 +6604,17 @@
 			(justify left)
 		)
 		(uuid "e491e979-3673-42be-8328-2fb5b13c3d64")
+	)
+	(hierarchical_label "+Vbus"
+		(shape input)
+		(at 214.63 35.56 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "e8713484-b3cf-485c-95d8-b7c8a75cac1d")
 	)
 	(symbol
 		(lib_id "Device:R")
@@ -9007,77 +9143,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+5V")
-		(at 222.25 34.29 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "3ad6304c-a399-41ba-ae37-7537d1687cf1")
-		(property "Reference" "#PWR076"
-			(at 222.25 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+5V"
-			(at 219.202 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 222.25 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 222.25 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 222.25 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "db7b0c13-1ae9-481d-83ad-ae3a9cefd16d")
-		)
-		(instances
-			(project "power"
-				(path "/1e5fa1ef-e283-4594-971e-80ab15cefa9e"
-					(reference "#PWR?")
-					(unit 1)
-				)
-			)
-			(project "motor-power-poc"
-				(path "/a1dc4c9e-7b20-4b66-a693-9133bc644c6b/c6ffff07-df24-4c45-882d-f55b522e3469"
-					(reference "#PWR076")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 142.24 116.84 90)
 		(unit 1)
@@ -10599,7 +10664,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 222.25 39.37 0)
+		(at 232.41 39.37 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -10608,7 +10673,7 @@
 		(dnp no)
 		(uuid "6a4ab618-c49a-4c4e-b997-9be174831e94")
 		(property "Reference" "R36"
-			(at 220.472 38.1 0)
+			(at 230.632 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10617,7 +10682,7 @@
 			)
 		)
 		(property "Value" "100"
-			(at 220.472 40.64 0)
+			(at 230.632 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10626,7 +10691,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 224.028 39.37 90)
+			(at 234.188 39.37 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10635,7 +10700,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 222.25 39.37 0)
+			(at 232.41 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10644,7 +10709,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 222.25 39.37 0)
+			(at 232.41 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10653,7 +10718,7 @@
 			)
 		)
 		(property "Basic" "Y"
-			(at 222.25 39.37 0)
+			(at 232.41 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10662,7 +10727,7 @@
 			)
 		)
 		(property "JLCPCB Part #" "C22775"
-			(at 222.25 39.37 0)
+			(at 232.41 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10671,7 +10736,7 @@
 			)
 		)
 		(property "Manufacturer" "Uniroyal Elec"
-			(at 222.25 39.37 0)
+			(at 232.41 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10680,7 +10745,7 @@
 			)
 		)
 		(property "Manufacturer Part Number" "0603WAF1000T5E"
-			(at 222.25 39.37 0)
+			(at 232.41 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11188,6 +11253,73 @@
 			(project "motor-power-poc"
 				(path "/a1dc4c9e-7b20-4b66-a693-9133bc644c6b/c6ffff07-df24-4c45-882d-f55b522e3469"
 					(reference "TP5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 232.41 34.29 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "729432f8-fa01-4ff5-86e8-964868efe166")
+		(property "Reference" "#PWR092"
+			(at 232.41 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V_buck"
+			(at 222.25 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 232.41 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 232.41 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 232.41 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c9826138-38e2-4495-8233-a3a4f1236004")
+		)
+		(instances
+			(project "motor-power-poc"
+				(path "/a1dc4c9e-7b20-4b66-a693-9133bc644c6b/c6ffff07-df24-4c45-882d-f55b522e3469"
+					(reference "#PWR092")
 					(unit 1)
 				)
 			)
@@ -11902,6 +12034,110 @@
 			(project "motor-power-poc"
 				(path "/a1dc4c9e-7b20-4b66-a693-9133bc644c6b/c6ffff07-df24-4c45-882d-f55b522e3469"
 					(reference "TP8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 219.71 35.56 90)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "87f58240-d408-4dfe-9c33-4d0ea20be278")
+		(property "Reference" "R49"
+			(at 219.71 31.75 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100"
+			(at 219.71 33.528 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 219.71 33.782 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 219.71 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 219.71 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Basic" "Y"
+			(at 219.71 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" "C22775"
+			(at 219.71 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Uniroyal Elec"
+			(at 219.71 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "0603WAF1000T5E"
+			(at 219.71 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "cab5a046-d109-48a2-911e-fdc5565e9b88")
+		)
+		(pin "2"
+			(uuid "a28e8fd4-4f70-4ae7-8878-23e9a3f874ac")
+		)
+		(instances
+			(project "motor-power-poc"
+				(path "/a1dc4c9e-7b20-4b66-a693-9133bc644c6b/c6ffff07-df24-4c45-882d-f55b522e3469"
+					(reference "R49")
 					(unit 1)
 				)
 			)
@@ -15150,17 +15386,16 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector_Generic:Conn_02x02_Odd_Even")
+		(lib_id "Connector_Generic:Conn_02x03_Odd_Even")
 		(at 215.9 44.45 0)
-		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom no)
+		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "f4e55238-7317-409d-85ce-66ef4fa6582d")
 		(property "Reference" "J4"
-			(at 214.376 49.53 0)
+			(at 217.424 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15168,7 +15403,7 @@
 			)
 		)
 		(property "Value" "Conn_02x02_Counter_Clockwise"
-			(at 214.63 40.64 0)
+			(at 217.17 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15176,7 +15411,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_2x02_P2.54mm_Vertical"
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_2x03_P2.54mm_Vertical"
 			(at 215.9 44.45 0)
 			(effects
 				(font
@@ -15194,7 +15429,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Generic connector, double row, 02x02, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"
+		(property "Description" "Generic connector, double row, 02x03, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"
 			(at 215.9 44.45 0)
 			(effects
 				(font
@@ -15214,6 +15449,12 @@
 		)
 		(pin "1"
 			(uuid "f25cf398-75e9-418d-a6e1-da71a6692c7a")
+		)
+		(pin "5"
+			(uuid "5820cc37-bb8e-4159-835d-60c4ed2a3ad0")
+		)
+		(pin "6"
+			(uuid "6c1da7d9-13b8-4350-87c0-9d80e42e3bd6")
 		)
 		(instances
 			(project "power"
