@@ -46607,7 +46607,7 @@
 		)
 	)
 	(gr_text "R. Ait-Younes 25-10"
-		(at 178.03 93.75 0)
+		(at 178.03 92.5 0)
 		(layer "B.SilkS")
 		(uuid "6775b44a-f3bc-4c3c-9113-2e890ea76c63")
 		(effects
@@ -46619,7 +46619,7 @@
 		)
 	)
 	(gr_text "R01"
-		(at 161.13 93.75 0)
+		(at 161.13 92.5 0)
 		(layer "B.SilkS")
 		(uuid "683b93a8-997c-4a0a-a03e-8e5965cb4818")
 		(effects
@@ -46992,7 +46992,7 @@
 		)
 	)
 	(gr_text "Motor Power POC"
-		(at 178.25 91.75 0)
+		(at 178.25 90.5 0)
 		(layer "B.SilkS")
 		(uuid "b511d1a4-e603-4307-b075-48f7ddb37fcf")
 		(effects
