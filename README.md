@@ -15,9 +15,10 @@ Motor Power POC board made to test power protection circuits (OCP, UVLO, OVL, RP
 - DRV8701 (H-bridge gate driver)
 - SIS412DN-T1-GE3 (10A MOSFET)
 
-
 ## Top preview
 
+<img width="1199" height="859" alt="image" src="https://github.com/user-attachments/assets/e2698ec8-7fdd-4bda-8084-dd38d6cecfae" />
 
 ## Preview 3d render
 
+<img width="1389" height="856" alt="image" src="https://github.com/user-attachments/assets/379b9361-4bdf-45dd-8cbd-c0c417f20095" />
